@@ -1,4 +1,12 @@
 <script>
+
+
+import avatarImage1 from '$lib/images/avatars/avatar-1.png'
+import avatarImage2 from '$lib/images/avatars/avatar-2.png'
+import avatarImage3 from '$lib/images/avatars/avatar-3.png'
+import avatarImage4 from '$lib/images/avatars/avatar-4.png'
+import avatarImage5 from '$lib/images/avatars/avatar-5.png'
+
 const testimonials = [
   [
     {
@@ -7,7 +15,7 @@ const testimonials = [
       author: {
         name: 'Sheryl Berge',
         role: 'CEO at Lynch LLC',
-        // image: avatarImage1,
+        image: avatarImage1,
       },
     },
     {
@@ -16,7 +24,7 @@ const testimonials = [
       author: {
         name: 'Amy Hahn',
         role: 'Director at Velocity Industries',
-        // image: avatarImage4,
+        image: avatarImage4,
       },
     },
   ],
@@ -27,7 +35,7 @@ const testimonials = [
       author: {
         name: 'Leland Kiehn',
         role: 'Founder of Kiehn and Sons',
-        // image: avatarImage5,
+        image: avatarImage5,
       },
     },
     {
@@ -36,7 +44,7 @@ const testimonials = [
       author: {
         name: 'Erin Powlowski',
         role: 'COO at Armstrong Inc',
-        // image: avatarImage2,
+        image: avatarImage2,
       },
     },
   ],
@@ -47,7 +55,7 @@ const testimonials = [
       author: {
         name: 'Peter Renolds',
         role: 'Founder of West Inc',
-        // image: avatarImage3,
+        image: avatarImage3,
       },
     },
     {
@@ -56,11 +64,12 @@ const testimonials = [
       author: {
         name: 'Amy Hahn',
         role: 'Director at Velocity Industries',
-        // image: avatarImage4,
+        image: avatarImage4,
       },
     },
   ],
 ]
+
 
 </script>
 
@@ -107,13 +116,13 @@ const testimonials = [
                             </div>
                             </div>
                             <div class="overflow-hidden rounded-full bg-slate-50">
-                            <!-- <Image
+                            <img
                                 class="h-14 w-14 object-cover"
                                 src={testimonial.author.image}
                                 alt=""
                                 width={56}
                                 height={56}
-                            /> -->
+                            />
                             </div>
                         </figcaption>
                         </figure>
