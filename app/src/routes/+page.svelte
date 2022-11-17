@@ -79,30 +79,30 @@
 
 	const features = [
 		{
-			title: 'Высокоскоростной сайт',
+			title: 'Шкафы',
 			description:
 				"Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
 			image: screenshotPayroll
 		},
 		{
-			title: 'Система управления проектом',
+			title: 'Кухонные гарнитуры',
 			description:
 				"All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
 			image: screenshotExpenses
 		},
 		{
-			title: 'Реклама в Яндексе',
+			title: 'Кровати и матрасы',
 			description:
 				"We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
 			image: screenshotVatReturns
 		},
 		{
-			title: 'SEO продвижение',
+			title: 'Обеденные группы',
 			description: 'Встроенная в админ-панель система мониторинга позиций',
 			image: screenshotReporting
 		},
 		{
-			title: 'Мониторинг конкурентов',
+			title: 'Офисная мебель',
 			description:
 				'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
 			image: screenshotReporting
