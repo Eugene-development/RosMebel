@@ -1,8 +1,8 @@
-<div class="bg-indigo-600">
+<div class="bg-blue-500">
 	<div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
 		<div class="flex flex-wrap items-center justify-between">
 			<div class="flex w-0 flex-1 items-center">
-				<span class="flex rounded-lg bg-indigo-800 p-2">
+				<span class="flex rounded-lg bg-red-900 p-2">
 					<!-- Heroicon name: outline/megaphone -->
 					<svg
 						class="h-6 w-6 text-white"
@@ -30,14 +30,14 @@
 			<div class="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
 				<a
 					href="/"
-					class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-indigo-600 shadow-sm hover:bg-indigo-50"
+					class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-blue-600 shadow-sm hover:bg-blue-50"
 					>Узнать больше</a
 				>
 			</div>
 			<div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
 				<button
 					type="button"
-					class="-mr-1 flex rounded-md p-2 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
+					class="-mr-1 flex rounded-md p-2 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
 				>
 					<span class="sr-only">Dismiss</span>
 					<!-- Heroicon name: outline/x-mark -->
