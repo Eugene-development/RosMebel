@@ -221,7 +221,7 @@
         <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
           <a href="/" class="">
             <span class="sr-only">Your Company</span>
-            <img class="h-10 mb-2" src="https://storage.yandexcloud.net/brand-logo/azbuka-komforta/logo/logo5.png" alt="">
+            <img class="h-10 mb-4" src="https://storage.yandexcloud.net/brand-logo/azbuka-komforta/logo/logo4.png" alt="">
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -319,7 +319,7 @@
 	</h1>
             <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
             <div class="mt-8 flex gap-x-4 sm:justify-center">
-              <a href="/" class="inline-block rounded-lg bg-gradient-to-tr from-pink-600 via-pink-800 to-blue-600 hover:bg-gradient-to-bl px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1">
+              <a href="/" class="inline-block rounded-lg bg-gradient-to-tr from-red-600 via-red-800 to-blue-600 hover:bg-gradient-to-bl px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1">
                 Получить скидку
                 <span class="text-red-100" aria-hidden="true">&rarr;</span>
               </a>
@@ -367,10 +367,10 @@
 	<div class="relative">
 		<div class="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
 			<h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-				В полном пакете вы получаете самые важные инструменты для работы в сети интернет
+				Широкий ассортимент предлагаемой мебели
 			</h2>
 			<p class="mt-6 text-lg tracking-tight text-blue-100">
-				Вы можете воспользоваться только сайтом, а SEO и рекламой заниматься самостоятельно
+				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению.
 			</p>
 		</div>
 		<TabGroup

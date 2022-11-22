@@ -2,7 +2,7 @@
 	<div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
 		<div class="flex flex-wrap items-center justify-between">
 			<div class="flex w-0 flex-1 items-center">
-				<span class="flex rounded-lg bg-pink-500 p-2">
+				<span class="flex rounded-lg bg-red-700 p-2">
 					<!-- Heroicon name: outline/megaphone -->
 					<svg
 						class="h-6 w-6 text-white"
