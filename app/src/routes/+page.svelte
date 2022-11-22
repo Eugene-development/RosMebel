@@ -219,9 +219,9 @@
     <div>
       <nav class="flex h-9 items-center justify-between" aria-label="Global">
         <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-          <a href="/" class="-m-1.5 p-1.5">
+          <a href="/" class="">
             <span class="sr-only">Your Company</span>
-            <img class="h-8" src="https://storage.yandexcloud.net/brand-logo/azbuka-komforta/logo/logo2.png" alt="">
+            <img class="h-10 mb-2" src="https://storage.yandexcloud.net/brand-logo/azbuka-komforta/logo/logo5.png" alt="">
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -319,7 +319,7 @@
 	</h1>
             <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
             <div class="mt-8 flex gap-x-4 sm:justify-center">
-              <a href="/" class="inline-block rounded-lg bg-red-900 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-red-800 hover:bg-blue-700 hover:ring-blue-700">
+              <a href="/" class="inline-block rounded-lg bg-gradient-to-tr from-pink-600 via-pink-800 to-blue-600 hover:bg-gradient-to-bl px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1">
                 Получить скидку
                 <span class="text-red-100" aria-hidden="true">&rarr;</span>
               </a>
