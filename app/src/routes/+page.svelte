@@ -387,7 +387,7 @@
 					{#each features as feature}
 						<div
 							key={feature.title}
-							class="group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
+							class="my-2 group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
 						>
 							<h3>
 								<Tab
@@ -457,7 +457,7 @@
 					<ul class="flex flex-col gap-y-6 sm:gap-y-8">
 						{#each column as testimonial}
 							<li>
-								<figure class="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+								<figure class="my-2 relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
 									<svg
 										class="absolute top-6 left-6 fill-slate-100"
 										aria-hidden="true"
