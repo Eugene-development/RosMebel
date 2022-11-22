@@ -84,13 +84,13 @@
 			title: 'Шкафы',
 			description:
 				"Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-			image: screenshotPayroll
+			image: "https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/shkaf.jpeg"
 		},
 		{
 			title: 'Кухонные гарнитуры',
 			description:
 				"All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-			image: screenshotExpenses
+			image: "https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/kitchen.jpeg"
 		},
 		{
 			title: 'Кровати и матрасы',
