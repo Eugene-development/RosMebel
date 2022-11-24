@@ -1,5 +1,6 @@
 <script>
 	import Benefits from '$lib/components/benefits/index.svelte';
+	import Blog from '$lib/components/blog/index.svelte';
 
 	import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@rgossiaux/svelte-headlessui';
 	import backgroundImage from '$lib/images/background-features.jpg';
@@ -433,6 +434,7 @@
 	</div>
 </section>
 
+<Benefits {...data.contentBenefits} />
 
 <section
 	id="testimonials"
@@ -506,4 +508,5 @@
 </section>
 
 
-<Benefits {...data.contentBenefits} />
+<Blog {...data.contentBlog} />
+
