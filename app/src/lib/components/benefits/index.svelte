@@ -2,7 +2,7 @@
 	export let content;
 </script>
 
-<div class="bg-gradient-to-b from-white to-gray-50">
+<div class="bg-white">
 	<div class="max-w-2xl mx-auto px-4 py-12 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
 		<!-- Details section -->
 		<section aria-labelledby="details-heading">

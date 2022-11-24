@@ -1,4 +1,4 @@
-  <div class="px-6 pt-6 lg:px-8">
+  <div class="px-6 py-5 lg:px-8">
     <div>
       <nav class="flex h-9 items-center justify-between" aria-label="Global">
         <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
@@ -16,15 +16,13 @@
             </svg>
           </button>
         </div>
-        <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+        <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-9">
           <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Замер</a>
-
           <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Доставка</a>
-
           <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Установка</a>
           <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Оплата</a>
-
           <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Гарантии</a>
+          <a href="/contacts" class="font-semibold text-gray-900 hover:text-gray-900">Контакты</a>
         </div>
         <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
           <a href="/" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Запись на замер</a>
