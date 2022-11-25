@@ -1,4 +1,11 @@
-<div class="bg-blue-500">
+<script>
+	import {visibleBanner} from "$lib/store/stores.js"
+	import { useInvert } from '$lib/functions/broker';
+	const { invert } = useInvert;
+</script>
+
+{#if $visibleBanner}
+	<div class="bg-blue-500 ">
 	<div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
 		<div class="flex flex-wrap items-center justify-between">
 			<div class="flex w-0 flex-1 items-center">
@@ -35,7 +42,7 @@
 				>
 			</div>
 			<div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
-				<button
+				<button on:click={() => visibleBanner.update(invert)}
 					type="button"
 					class="-mr-1 flex rounded-md p-2 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
 				>
@@ -57,3 +64,5 @@
 		</div>
 	</div>
 </div>
+
+{/if}
