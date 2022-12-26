@@ -5,7 +5,7 @@
 </script>
 
 {#if $visibleBanner}
-	<div class="bg-blue-500 ">
+	<div class="bg-blue-500">
 	<div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
 		<div class="flex flex-wrap items-center justify-between">
 			<div class="flex w-0 flex-1 items-center">
@@ -28,15 +28,15 @@
 					</svg>
 				</span>
 				<p class="ml-3 truncate font-medium text-white">
-					<span class="md:hidden">Мы начинаем работать в Нижнем Новгороде!</span>
+					<span class="md:hidden">У нас есть для вас акции!</span>
 					<span class="hidden md:inline"
-						>Большие новости! Мы начинаем свою работу в Нижнем Новгороде.</span
+						>Большие новости! У нас есть для вас акции и специальные предложения.</span
 					>
 				</p>
 			</div>
 			<div class="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
 				<a
-					href="/"
+					href="/actions"
 					class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-blue-600 shadow-sm hover:bg-blue-50"
 					>Узнать больше</a
 				>
