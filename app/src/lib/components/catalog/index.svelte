@@ -52,7 +52,7 @@
 </script>
 
 <section
-	id="features"
+	id="catalog"
 	aria-label="Features for running your books"
 	class="relative overflow-hidden bg-blue-600 pt-20 px-20 pb-28 sm:py-32"
 >

@@ -45,7 +45,7 @@
 
 			<div class="grid grid-cols-1 lg:grid-cols-3">
 				<!-- Contact information -->
-				<div class="relative overflow-hidden py-10 px-6 bg-blue-800 sm:px-10 xl:p-12">
+				<div class="relative overflow-hidden py-10 px-6 bg-blue-600 sm:px-10 xl:p-12">
 					<div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
 						<svg
 							class="absolute inset-0 w-full h-full"
