@@ -6,13 +6,13 @@
 
 {#if $visibleBanner}
 	<div class="bg-blue-500">
-	<div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
+	<div class="mx-auto max-w-full py-3 px-3 sm:px-6 lg:px-8">
 		<div class="flex flex-wrap items-center justify-between">
 			<div class="flex w-0 flex-1 items-center">
 				<span class="flex rounded-lg bg-red-700 p-2">
 					<!-- Heroicon name: outline/megaphone -->
 					<svg
-						class="h-6 w-6 text-white"
+						class="h-5 w-5 text-white"
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
@@ -37,11 +37,11 @@
 			<div class="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
 				<a
 					href="/actions"
-					class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-2 text-sm font-medium text-blue-600 shadow-sm hover:bg-blue-50"
+					class="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-1 text-sm font-medium text-blue-600 shadow-sm hover:bg-blue-50"
 					>Узнать больше</a
 				>
 			</div>
-			<div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
+			<div class="order-2 flex-shrink-0 sm:order-3 sm:ml-2">
 				<button on:click={() => visibleBanner.update(invert)}
 					type="button"
 					class="-mr-1 flex rounded-md p-2 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
