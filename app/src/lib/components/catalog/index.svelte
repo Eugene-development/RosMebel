@@ -1,9 +1,10 @@
 <script>
-    	import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@rgossiaux/svelte-headlessui';
+    import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@rgossiaux/svelte-headlessui';
 	import backgroundImage from '$lib/images/background-features.jpg';
 
 	let tabOrientation = 'gorizontal';
 
+	let img = "https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/shkaf.jpeg"
 
 	const features = [
 		{
@@ -81,22 +82,25 @@
 					class="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal"
 				>
 					{#each features as feature}
-						<div
-							key={feature.title}
-							class="transition ease-in-out hover:scale-105 my-4 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-12 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
-						>
-							<h3>
-								<Tab
-									class="font-display text-2xl [&:not(:focus-visible)]:focus:outline-none text-blue-100 hover:text-white lg:text-white"
-								>
-									<span class="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl" />
-									{feature.title}
-								</Tab>
-							</h3>
-							<p class="mt-2 hidden text-sm lg:block text-white">
-								{feature.description}
-							</p>
-						</div>
+						<a href="{feature.link}">
+							<div
+								on:mouseenter={() => img = feature.image}
+								key={feature.title}
+								class="transition ease-in-out hover:scale-105 my-4 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-12 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
+							>
+								<h3>
+									<Tab
+										class="font-display text-2xl [&:not(:focus-visible)]:focus:outline-none text-blue-100 hover:text-white lg:text-white"
+									>
+										<span class="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl" />
+										{feature.title}
+									</Tab>
+								</h3>
+								<p class="mt-2 hidden text-sm lg:block text-white">
+									{feature.description}
+								</p>
+							</div>
+						</a>
 					{/each}
 				</TabList>
 			</div>
@@ -111,12 +115,13 @@
 								{feature.description}
 							</p>
 						</div>
+						
 						<div
 							class=" mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"
 						>
 							<img
 								class="w-full object-fill h-[42rem]"
-								src={feature.image}
+								src={img}
 								alt=""
 								priority
 								sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
@@ -128,3 +133,4 @@
 		</TabGroup>
 	</div>
 </section>
+
