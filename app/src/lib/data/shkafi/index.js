@@ -8,7 +8,7 @@ const SEO = {
 };
 
 //BC
-const titleBC = 'Шкафы в Нижнем Новгороде';
+const titleBC = 'Шкафы';
 const descriptionBC = 'Шкафы на заказ для вашей комнаты или гардероба. Дизайн проект в подарок.';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';

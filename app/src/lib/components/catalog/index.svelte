@@ -29,7 +29,7 @@
 		// },
 		{
 			title: 'Обеденные группы',
-			description: 'Встроенная в админ-панель система мониторинга позиций',
+			description: 'All of your receipts organized into one place, as long as you dont mind typing in the data by hand.',
 			image: "https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/kitchen.jpeg"
 		},
 		// {
@@ -51,7 +51,7 @@
 <section
 	id="catalog"
 	aria-label="Features for running your books"
-	class="relative overflow-hidden bg-blue-600 pt-12 px-20 pb-28 sm:py-20"
+	class="relative overflow-hidden bg-blue-600 pt-10 px-20 pb-28 sm:py-20"
 >
 	<img
 		class="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
@@ -86,7 +86,7 @@
 							<div
 								on:mouseenter={() => img = feature.image}
 								key={feature.title}
-								class="transition ease-in-out hover:scale-105 my-4 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-12 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
+								class="transition ease-in-out hover:scale-105 my-4 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-8 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
 							>
 								<h3>
 									<Tab
@@ -120,7 +120,7 @@
 							class=" mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"
 						>
 							<img
-								class="w-full object-fill h-[42rem]"
+								class="w-full object-cover h-[40rem]"
 								src={img}
 								alt=""
 								priority

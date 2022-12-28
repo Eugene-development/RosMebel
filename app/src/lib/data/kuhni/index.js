@@ -8,12 +8,12 @@ const SEO = {
 };
 
 // BC
-const titleBC = 'Кухни в Нижнем Новгороде';
+const titleBC = 'Кухонные гарнитуры';
 const descriptionBC = 'Кухонные гарнитуры на заказ под ваши размеры. Дизайн проект в подарок.';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/4.jpg';
 
-const currentPage = 'Кухни';
+const currentPage = 'Кухонные гарнитуры';
 const parentPage = '';
 const parentPageLink = '';
 
@@ -65,32 +65,32 @@ const types = [
 	{
 		title: 'МДФ',
 		description: 'Кухонные гарнитуры с фасадами из МДФ с покрытием ПВХ',
-		link: 'kuhni/mdf'
+		link: 'kuhni/mdf',
+		img: ''
+	},
+	{
+		title: 'Патина',
+		description: 'Кухонные гарнитуры с фасадами из МДФ с патинированием',
+		link: 'kuhni/mdf',
+		img: ''
 	},
 	{
 		title: 'Пластик',
 		description: 'Кухонные гарнитуры с фасадами из пластика в профиле',
-		link: 'kuhni/plastic'
+		link: 'kuhni/plastic',
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/primula.jpeg'
 	},
 	{
-		title: 'Эконом',
+		title: 'Эмаль',
 		description: 'Варианты кухонных гарнитуров по низким ценам',
-		link: 'kuhni/econom'
+		link: 'kuhni/econom',
+		img: ''
 	},
 	{
-		title: 'Модульные',
+		title: 'ЛДСП',
 		description: 'Модули кухонных гарнитуров стандартных размеров',
-		link: 'kuhni/modulnie'
-	},
-	{
-		title: 'Прямые',
-		description: 'Прямые линейные кухонные гарнитуры во всю стену',
-		link: 'kuhni/priamie'
-	},
-	{
-		title: 'Угловые',
-		description: 'Угловые кухонные гарнитуры на один или два угла',
-		link: 'kuhni/uglovie'
+		link: 'kuhni/modulnie',
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/milena.jpeg'
 	}
 ];
 
