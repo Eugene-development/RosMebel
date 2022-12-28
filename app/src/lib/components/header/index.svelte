@@ -1,10 +1,10 @@
-  <div class="px-6 py-5 lg:px-8">
+  <div class="px-6 py-5 lg:px-8 bg-gray-800">
     <div>
       <nav class="flex h-9 items-center justify-between" aria-label="Global">
         <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
           <a href="/" class="">
             <span class="sr-only">Your Company</span>
-            <img class="h-10 mb-4" src="https://storage.yandexcloud.net/brand-logo/azbuka-komforta/logo/logo4.png" alt="">
+            <img class="h-10 mb-2" src="https://storage.yandexcloud.net/brand-logo/azbuka-komforta/logo/logo2.png" alt="">
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -16,16 +16,16 @@
             </svg>
           </button>
         </div>
-        <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-9">
-          <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Замер</a>
-          <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Доставка</a>
-          <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Установка</a>
-          <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Оплата</a>
-          <a href="/contacts" class="font-semibold text-gray-900 hover:text-gray-900">Контакты</a>
+        <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-9 text-gray-50 hover:text-gray-100">
+          <a href="/" class="font-semibold">Замер</a>
+          <a href="/" class="font-semibold">Доставка</a>
+          <a href="/" class="font-semibold">Установка</a>
+          <a href="/" class="font-semibold">Оплата</a>
+          <a href="/contacts" class="font-semibold">Контакты</a>
           <!-- <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Контакты</a> -->
         </div>
         <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-          <a href="/" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Запись на замер</a>
+          <a href="/" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-50 shadow-sm ring-2 ring-gray-50/10 hover:ring-gray-100/20">Запись на замер</a>
         </div>
       </nav>
       <!-- Mobile menu, show/hide based on menu open state. -->

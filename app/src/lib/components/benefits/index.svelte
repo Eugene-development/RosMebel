@@ -9,7 +9,7 @@
 			<div class="flex flex-col items-center text-center">
 				<h2
 					id="details-heading"
-					class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+					class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl"
 				>
 					{content.title}
 				</h2>
