@@ -64,7 +64,7 @@
 	<div class="relative">
 		<div class="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
 			<h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-				Каталог мебели
+				Наш каталог мебели
 			</h2>
 			<!-- <p class="mt-5 text-lg tracking-tight text-blue-100">
 				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению.
