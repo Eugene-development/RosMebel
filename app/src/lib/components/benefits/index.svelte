@@ -16,7 +16,7 @@
 				<p class="mt-3 max-w-3xl text-lg text-gray-600">{content.description}</p>
 			</div>
 
-			<div class="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
+			<div class="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-16">
 				<div>
 					<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
 						<img

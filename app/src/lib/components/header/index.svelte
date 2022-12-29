@@ -1,4 +1,4 @@
-  <div class="px-6 py-5 lg:px-8 bg-gray-800">
+  <div class="px-6 py-5 lg:px-8 bg-black">
     <div>
       <nav class="flex h-9 items-center justify-between" aria-label="Global">
         <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
