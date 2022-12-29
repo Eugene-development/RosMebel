@@ -51,7 +51,7 @@
 <section
 	id="catalog"
 	aria-label="Features for running your books"
-	class="relative overflow-hidden bg-blue-600 pt-10 px-20 pb-28 sm:py-20"
+	class="relative overflow-hidden bg-blue-600 pt-10 px-20 pb-28 sm:py-16"
 >
 	<img
 		class="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
@@ -66,13 +66,16 @@
 			<h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
 				Наш каталог мебели
 			</h2>
-			<p class="mt-6 text-lg tracking-tight text-blue-100">
-				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению. А наши замерщики и консультанты помогут вам не ошибиться и сделать правильный выбор.
+			<p class="mt-5 text-lg tracking-tight text-blue-100">
+				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению.
 			</p>
+			<!-- <p class="mt-6 text-lg tracking-tight text-blue-100">
+				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению. А наши замерщики и консультанты помогут вам не ошибиться и сделать правильный выбор.
+			</p> -->
 		</div>
 		<TabGroup
 			as="div"
-			class="mt-16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
+			class="mt-10 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-12 lg:grid-cols-12 lg:pt-0"
 			vertical={tabOrientation === 'vertical'}
 		>
 			<div
@@ -96,7 +99,7 @@
 										{feature.title}
 									</Tab>
 								</h3>
-								<p class="mt-2 hidden text-sm lg:block text-white">
+								<p class="mt-1 hidden text-sm lg:block text-white">
 									{feature.description}
 								</p>
 							</div>
@@ -117,10 +120,10 @@
 						</div>
 						
 						<div
-							class=" mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"
+							class=" mt-8 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"
 						>
 							<img
-								class="w-full object-cover h-[40rem]"
+								class="w-full object-cover h-[34rem]"
 								src={img}
 								alt=""
 								priority
