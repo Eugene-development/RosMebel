@@ -66,12 +66,12 @@
 			<h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
 				Наш каталог мебели
 			</h2>
-			<p class="mt-5 text-lg tracking-tight text-blue-100">
+			<!-- <p class="mt-5 text-lg tracking-tight text-blue-100">
 				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению.
-			</p>
-			<!-- <p class="mt-6 text-lg tracking-tight text-blue-100">
-				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению. А наши замерщики и консультанты помогут вам не ошибиться и сделать правильный выбор.
 			</p> -->
+			<p class="mt-6 text-lg tracking-tight text-blue-100">
+				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению. А наши замерщики и консультанты помогут вам не ошибиться и сделать правильный выбор.
+			</p>
 		</div>
 		<TabGroup
 			as="div"
@@ -89,7 +89,7 @@
 							<div
 								on:mouseenter={() => img = feature.image}
 								key={feature.title}
-								class="transition ease-in-out hover:scale-105 my-4 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-8 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
+								class="transition ease-in-out hover:scale-105 my-3 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-8 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
 							>
 								<h3>
 									<Tab
