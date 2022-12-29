@@ -25,7 +25,7 @@
           <!-- <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Контакты</a> -->
         </div>
         <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-          <a href="/" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-50 shadow-sm ring-2 ring-gray-50/10 hover:ring-gray-100/20">Запись на замер</a>
+          <a href="/" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-50 shadow-sm ring-2 ring-gray-50/10 hover:ring-gray-100/20">Партнёрство</a>
         </div>
       </nav>
       <!-- Mobile menu, show/hide based on menu open state. -->
