@@ -13,7 +13,7 @@ const descriptionBC = 'Ознакомьтесь с нашими варианта
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 
-const parentPage = 'Кухни';
+const parentPage = 'Кухонные гарнитуры';
 const parentPageLink = 'kuhni';
 const currentPage = 'Модульные';
 
