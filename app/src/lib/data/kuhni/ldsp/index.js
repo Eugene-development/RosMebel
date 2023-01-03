@@ -1,6 +1,6 @@
 // SEO
-const title = 'Прямые кухонные гарнитуры в Нижнем Новгороде';
-const description = 'Варианты кухонными гарнитурами прямой формы в Нижнем Новгороде';
+const title = 'Кухонные гарнитуры с фасадами из ЛДСП в Нижнем Новгороде';
+const description = 'Варианты кухонными гарнитурами с фасадами из ЛДСП в Нижнем Новгороде';
 
 const SEO = {
 	title,
@@ -8,14 +8,14 @@ const SEO = {
 };
 
 //BC
-const titleBC = 'Прямые кухонные гарнитуры';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами кухонными гарнитурами прямой формы';
+const titleBC = 'Кухонные гарнитуры с фасадами из ЛДСП';
+const descriptionBC = 'Ознакомьтесь с нашими вариантами кухонными гарнитурами с фасадами из ЛДСП';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 
 const parentPage = 'Кухонные гарнитуры';
 const parentPageLink = 'kuhni';
-const currentPage = 'Прямые';
+const currentPage = 'ЛДСП';
 
 const BC = {
 	parentPage,
@@ -118,7 +118,7 @@ const content = {
 	products
 };
 
-export const contentKuhniPriamie = {
+export const contentKuhniLDSP = {
 	SEO,
 	BC,
 	content
