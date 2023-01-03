@@ -73,6 +73,11 @@
 			{BC.titleBC}
 		</h1>
 		<p class="mt-6 text-xl text-indigo-100 max-w-3xl">{BC.descriptionBC}</p>
+		<button
+			class="mt-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gray-600 bg-opacity-40 hover:bg-green-400 hover:bg-opacity-30"
+		>
+			Запись на замер
+		</button> 
 		<!-- <button
 				on:click|preventDefault={changeVisibleFormConsultation}
 			class="mt-8 px-12 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gray-600 bg-opacity-40 hover:bg-green-400 hover:bg-opacity-30"
