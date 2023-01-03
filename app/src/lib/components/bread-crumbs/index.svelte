@@ -18,9 +18,7 @@
             </div>
             <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 ">
 		
-				<div class="text-center mx-auto">
-				123
-				<div class="mx-auto pb-8 flex space-x-4">
+				<div class="mx-auto pb-8 flex space-x-4 justify-center">
 					<div class="flex">
 						<div class="flex items-center">
 							<a href="/" class="text-gray-100 hover:text-gray-100">
@@ -81,17 +79,19 @@
 					</div>
 				</div>
 
-				</div>
-
               <h1 class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
                 <span class="block text-white">{BC.titleBC}</span>
               </h1>
+			  
               <p class="mx-auto mt-6 max-w-lg text-center text-xl text-gray-200 sm:max-w-3xl"> {BC.descriptionBC} </p>
               <div class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
-                <div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
+                
+				<div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
+					
                   <button class="flex items-center justify-center rounded-md border border-transparent bg-green-400 px-4 py-3 text-base font-medium text-gray-100 shadow-sm hover:bg-gray-50 sm:px-8 bg-opacity-30">Записаться на замер</button>
                   <button class="flex items-center justify-center rounded-md border border-transparent bg-gray-500 bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8">Посмотреть варианты</button>
                 </div>
+				
               </div>
             </div>
           </div>
