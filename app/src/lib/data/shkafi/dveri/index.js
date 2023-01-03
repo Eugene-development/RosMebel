@@ -9,7 +9,8 @@ const SEO = {
 
 //BC
 const titleBC = 'Двери купе';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами дверей купе для ниш помещений';
+const descriptionBC =
+	'Ознакомьтесь с нашими вариантами дверей купе для ниш помещений и межкомнатных перегородок.';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 

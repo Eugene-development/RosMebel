@@ -9,13 +9,14 @@ const SEO = {
 
 //BC
 const titleBC = 'Шкафы купе';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами шкафов купе на заказ по доступным ценам';
+const descriptionBC =
+	'Ознакомьтесь с нашими вариантами шкафов купе на заказ по доступным ценам. Предлагаем различные системы подвесных и нижнеопорных дверей.';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 
 const parentPage = 'Шкафы';
 const parentPageLink = 'shkafy';
-const currentPage = 'Купе';
+const currentPage = 'Шкафы купе';
 
 const BC = {
 	parentPage,

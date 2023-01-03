@@ -9,7 +9,8 @@ const SEO = {
 
 //BC
 const titleBC = 'Гардеробные';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами гардеробных различного наполнения';
+const descriptionBC =
+	'Ознакомьтесь с нашими вариантами гардеробных различного наполнения для верхней одежды и повседневной.';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 

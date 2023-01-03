@@ -9,7 +9,8 @@ const SEO = {
 
 //BC
 const titleBC = 'Распашные шкафы';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами распашных шкафов';
+const descriptionBC =
+	'Ознакомьтесь с нашими вариантами распашных шкафов для комнаты, прихожей, балкона или других помещений.';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 

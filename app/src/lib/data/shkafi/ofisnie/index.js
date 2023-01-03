@@ -9,7 +9,8 @@ const SEO = {
 
 //BC
 const titleBC = 'Офисные шкафы';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами офисных шкафов';
+const descriptionBC =
+	'Ознакомьтесь с нашими вариантами офисных шкафов для хранения деловых бумаг и личных вещей.';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 

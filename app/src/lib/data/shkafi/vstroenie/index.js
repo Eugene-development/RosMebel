@@ -9,7 +9,8 @@ const SEO = {
 
 //BC
 const titleBC = 'Встроенные шкафы';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами встроенных шкафов';
+const descriptionBC =
+	'Ознакомьтесь с нашими вариантами встроенных шкафов для ниш раличных назначений от гардеробной до кладовой.';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 
