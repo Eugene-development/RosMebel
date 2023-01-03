@@ -71,7 +71,7 @@ const types = [
 	{
 		title: 'Патина',
 		description: 'Кухонные гарнитуры с фасадами из МДФ с патинированием',
-		link: 'kuhni/mdf',
+		link: 'kuhni/patina',
 		img: ''
 	},
 	{
@@ -83,13 +83,13 @@ const types = [
 	{
 		title: 'Эмаль',
 		description: 'Варианты кухонных гарнитуров по низким ценам',
-		link: 'kuhni/econom',
+		link: 'kuhni/emal',
 		img: ''
 	},
 	{
 		title: 'ЛДСП',
 		description: 'Модули кухонных гарнитуров стандартных размеров',
-		link: 'kuhni/modulnie',
+		link: 'kuhni/ldsp',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/milena.jpeg'
 	}
 ];

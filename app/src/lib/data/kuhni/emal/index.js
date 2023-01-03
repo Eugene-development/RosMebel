@@ -1,6 +1,6 @@
 // SEO
-const title = 'Модульные кухонные гарнитуры в Нижнем Новгороде';
-const description = 'Варианты модульных кухонных гарнитуров в Нижнем Новгороде';
+const title = 'Эмалированные кухонные гарнитуры в Нижнем Новгороде';
+const description = 'Варианты эмалированных кухонных гарнитуров в Нижнем Новгороде';
 
 const SEO = {
 	title,
@@ -8,14 +8,14 @@ const SEO = {
 };
 
 //BC
-const titleBC = 'Модульные кухонные гарнитуры';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами модульных кухонных гарнитуров';
+const titleBC = 'Эмалированные кухонные гарнитуры';
+const descriptionBC = 'Ознакомьтесь с нашими вариантами эмалированных кухонных гарнитуров';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 
 const parentPage = 'Кухонные гарнитуры';
 const parentPageLink = 'kuhni';
-const currentPage = 'Модульные';
+const currentPage = 'Эмаль';
 
 const BC = {
 	parentPage,
@@ -28,8 +28,8 @@ const BC = {
 
 //Main
 const mainText = {
-	titleCategory: 'Модульные',
-	descriptionCategory: 'Модульные кухонные гарнитуры'
+	titleCategory: 'Эмалированные',
+	descriptionCategory: 'Эмалированные кухонные гарнитуры'
 };
 
 const products = [
@@ -112,7 +112,7 @@ const content = {
 	products
 };
 
-export const contentKuhniModulnie = {
+export const contentKuhniEmal = {
 	BC,
 	content
 };
