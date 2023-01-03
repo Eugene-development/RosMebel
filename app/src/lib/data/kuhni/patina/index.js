@@ -1,6 +1,6 @@
 // SEO
-const title = 'Кухонные гарнитуры эконом в Нижнем Новгороде';
-const description = 'Варианты кухонных гарнитуров серии эконом в Нижнем Новгороде';
+const title = 'Кухонные гарнитуры c патинированными фасадами в Нижнем Новгороде';
+const description = 'Варианты кухонных гарнитуров с патинированными фасадами в Нижнем Новгороде';
 
 const SEO = {
 	title,
@@ -8,14 +8,15 @@ const SEO = {
 };
 
 // BC
-const titleBC = 'Кухонные гарнитуры эконом';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами кухонных гарнитуров серии эконом';
+const titleBC = 'Кухонные гарнитуры с патинированными фасадами';
+const descriptionBC =
+	'Ознакомьтесь с нашими вариантами кухонных гарнитуров с патинированными фасадами';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 
 const parentPage = 'Кухонные гарнитуры';
 const parentPageLink = 'kuhni';
-const currentPage = 'Эконом';
+const currentPage = 'Патина';
 
 const BC = {
 	parentPage,
@@ -28,8 +29,8 @@ const BC = {
 
 // Main
 const mainText = {
-	titleCategory: 'Эконом',
-	descriptionCategory: 'Кухонные гарнитуры серии Эконом'
+	titleCategory: 'Патина',
+	descriptionCategory: 'Кухонные гарнитуры с патинированными фасадами'
 };
 
 const products = [
@@ -70,7 +71,7 @@ const content = {
 	products
 };
 
-export const contentKuhniEconom = {
+export const contentKuhniPatina = {
 	SEO,
 	BC,
 	content
