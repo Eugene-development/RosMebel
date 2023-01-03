@@ -89,7 +89,7 @@
 				<div class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
 					
                   <button class="flex items-center justify-center rounded-md border border-transparent bg-green-400 px-4 py-3 text-base font-medium text-gray-100 shadow-sm hover:bg-gray-50 sm:px-8 bg-opacity-30">Записаться на замер</button>
-                  <button class="flex items-center justify-center rounded-md border border-transparent bg-gray-500 bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8">Посмотреть варианты</button>
+                  <a href="#models" class="flex items-center justify-center rounded-md border border-transparent bg-gray-500 bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8">Посмотреть варианты</a>
                 </div>
 				
               </div>
