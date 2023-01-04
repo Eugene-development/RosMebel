@@ -17,7 +17,7 @@
 						<a href="/{link}" class="transition ease-in-out hover:scale-105">
 							<div class="space-y-3">
 								<div class="aspect-w-3 aspect-h-2">
-									<img class="rounded-lg object-cover shadow-lg " src={img} alt="шкафы" />
+									<img class="rounded-lg object-cover shadow-lg " src={img} alt="мебель" />
 								</div>
 
 								<div class="space-y-2">
