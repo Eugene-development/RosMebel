@@ -1,25 +1,25 @@
 <script>
-    import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@rgossiaux/svelte-headlessui';
+	import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@rgossiaux/svelte-headlessui';
 	import backgroundImage from '$lib/images/background-features.jpg';
 
 	let tabOrientation = 'gorizontal';
 
-	let img = "https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/shkaf.jpeg"
+	let img = 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/shkaf.jpeg';
 
 	const features = [
 		{
 			title: 'Шкафы',
 			description:
 				"Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-			image: "https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/shkaf.jpeg",
-			link: "shkafy"
+			image: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/shkaf.jpeg',
+			link: 'shkafy'
 		},
 		{
 			title: 'Кухонные гарнитуры',
 			description:
 				"All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-			image: "https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/kitchen.jpeg",
-			link: "kuhni"
+			image: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/kitchen.jpeg',
+			link: 'kuhni'
 		},
 		// {
 		// 	title: 'Кровати и матрасы',
@@ -29,9 +29,10 @@
 		// },
 		{
 			title: 'Обеденные группы',
-			description: 'All of your receipts organized into one place, as long as you dont mind typing in the data by hand.',
-			image: "https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/kitchen.jpeg"
-		},
+			description:
+				'All of your receipts organized into one place, as long as you dont mind typing in the data by hand.',
+			image: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/kitchen.jpeg'
+		}
 		// {
 		// 	title: 'Офисная мебель',
 		// 	description:
@@ -45,7 +46,6 @@
 		//   image: screenshotReporting,
 		// },
 	];
-
 </script>
 
 <section
@@ -70,7 +70,9 @@
 				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению.
 			</p> -->
 			<p class="mt-6 text-lg tracking-tight text-blue-100">
-				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению. А наши замерщики и консультанты помогут вам не ошибиться и сделать правильный выбор.
+				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит
+				по размерам вашему помещению. А наши замерщики и консультанты помогут вам не ошибиться и
+				сделать правильный выбор.
 			</p>
 		</div>
 		<TabGroup
@@ -85,9 +87,9 @@
 					class="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal"
 				>
 					{#each features as feature}
-						<a href="{feature.link}">
+						<a href={feature.link}>
 							<div
-								on:mouseenter={() => img = feature.image}
+								on:mouseenter={() => (img = feature.image)}
 								key={feature.title}
 								class="transition ease-in-out hover:scale-105 my-3 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-8 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
 							>
@@ -118,7 +120,7 @@
 								{feature.description}
 							</p>
 						</div>
-						
+
 						<div
 							class=" mt-8 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]"
 						>
@@ -136,4 +138,3 @@
 		</TabGroup>
 	</div>
 </section>
-

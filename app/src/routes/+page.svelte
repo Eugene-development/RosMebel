@@ -13,6 +13,5 @@
 <Brands />
 <Catalog />
 <Benefits {...data.contentBenefits} />
-<Testimonials/>
+<Testimonials />
 <Blog {...data.contentBlog} />
-

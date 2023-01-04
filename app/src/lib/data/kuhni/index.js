@@ -87,6 +87,12 @@ const types = [
 		img: ''
 	},
 	{
+		title: 'Акрил',
+		description: 'Варианты кухонных гарнитуров по низким ценам',
+		link: 'kuhni/akril',
+		img: ''
+	},
+	{
 		title: 'ЛДСП',
 		description: 'Модули кухонных гарнитуров стандартных размеров',
 		link: 'kuhni/ldsp',

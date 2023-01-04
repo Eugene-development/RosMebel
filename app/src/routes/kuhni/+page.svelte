@@ -12,4 +12,3 @@
 
 <BreadCrumbs {...data.contentKuhni} />
 <Kuhni {...data.contentKuhni} />
-

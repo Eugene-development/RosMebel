@@ -5,7 +5,7 @@
 	import avatarImage4 from '$lib/images/avatars/avatar-4.png';
 	import avatarImage5 from '$lib/images/avatars/avatar-5.png';
 
-		const testimonials = [
+	const testimonials = [
 		[
 			{
 				content:
@@ -17,8 +17,7 @@
 				}
 			},
 			{
-				content:
-					'',
+				content: '',
 				author: {
 					name: '',
 					role: '',
@@ -37,8 +36,7 @@
 				}
 			},
 			{
-				content:
-					'',
+				content: '',
 				author: {
 					name: '',
 					role: '',
@@ -48,8 +46,7 @@
 		],
 		[
 			{
-				content:
-					'',
+				content: '',
 				author: {
 					name: '',
 					role: '',
@@ -57,8 +54,7 @@
 				}
 			},
 			{
-				content:
-					'',
+				content: '',
 				author: {
 					name: '',
 					role: '',
@@ -67,8 +63,8 @@
 			}
 		]
 	];
-
 </script>
+
 <section
 	id="testimonials"
 	aria-label="What our customers are saying"
@@ -92,7 +88,9 @@
 					<ul class="flex flex-col gap-y-6 sm:gap-y-8">
 						{#each column as testimonial}
 							<li>
-								<figure class="my-2 relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+								<figure
+									class="my-2 relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10"
+								>
 									<svg
 										class="absolute top-6 left-6 fill-slate-100"
 										aria-hidden="true"

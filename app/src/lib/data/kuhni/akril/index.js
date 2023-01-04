@@ -1,6 +1,6 @@
 // SEO
-const title = 'Угловые кухонные гарнитуры в Нижнем Новгороде';
-const description = 'Варианты кухонных гарнитуров угловой формы в Нижнем Новгороде';
+const title = 'Акриловые кухонные гарнитуры в Нижнем Новгороде';
+const description = 'Варианты кухонных гарнитуров с акриловыми фасадами в Нижнем Новгороде';
 
 const SEO = {
 	title,
@@ -8,14 +8,14 @@ const SEO = {
 };
 
 //BC
-const titleBC = 'Угловые кухонные гарнитуры';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами кухонных гарнитуров угловой формы';
+const titleBC = 'Акриловые кухонные гарнитуры';
+const descriptionBC = 'Ознакомьтесь с нашими вариантами кухонных гарнитуров с акриловыми фасадами';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 
 const parentPage = 'Кухонные гарнитуры';
 const parentPageLink = 'kuhni';
-const currentPage = 'Угловые';
+const currentPage = 'Акриловые';
 
 const BC = {
 	parentPage,
@@ -124,7 +124,7 @@ const content = {
 	products
 };
 
-export const contentKuhniUglovie = {
+export const contentKuhniAkril = {
 	SEO,
 	BC,
 	content

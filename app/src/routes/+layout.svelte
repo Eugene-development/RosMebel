@@ -10,4 +10,3 @@
 <Header />
 <slot />
 <Footer {...data.contentFooter} />
-

@@ -8,12 +8,12 @@
 
 	const header = 'Предложение о сотрудничестве';
 	const dataForm = {
-		 name: '',
-		 position: '',
-		 email: '',
-		 phone: '',
-		 sentence: ''
-	}
+		name: '',
+		position: '',
+		email: '',
+		phone: '',
+		sentence: ''
+	};
 
 	const url = `/send-sentence-form-azbuka`;
 	const apiCRUD = {
@@ -209,7 +209,10 @@
 					<h3 class="text-lg font-medium text-gray-900 border-b pb-2">
 						{header}
 					</h3>
-					<form on:submit|preventDefault|once={sendSentence} class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+					<form
+						on:submit|preventDefault|once={sendSentence}
+						class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+					>
 						<div>
 							<label for="name" class="block text-sm font-medium text-gray-900">Имя</label>
 							<div class="mt-1">
