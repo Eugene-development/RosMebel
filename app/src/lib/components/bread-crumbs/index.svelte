@@ -89,7 +89,7 @@
 									class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0"
 								>
 									<button
-										class="flex items-center justify-center rounded-md border border-transparent bg-green-400 px-4 py-3 text-base font-medium text-gray-100 shadow-sm hover:bg-gray-50 sm:px-8 bg-opacity-30"
+										class="flex w-full items-center justify-center rounded-md border border-transparent bg-green-400 px-4 py-3 text-base font-medium text-gray-100 shadow-sm sm:px-8 bg-opacity-30 hover:bg-opacity-20"
 										>Записаться на замер</button
 									>
 									<a
