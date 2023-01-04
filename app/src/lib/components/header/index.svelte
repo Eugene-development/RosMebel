@@ -29,6 +29,7 @@
         </div>
       </nav>
       <!-- Mobile menu, show/hide based on menu open state. -->
+      {#if false}
       <div role="dialog" aria-modal="true">
         <div focus="true" class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
           <div class="flex h-9 items-center justify-between">
@@ -66,5 +67,6 @@
           </div>
         </div>
       </div>
+      {/if}
     </div>
   </div>
