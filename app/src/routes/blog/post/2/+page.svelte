@@ -7,5 +7,5 @@
 </script>
 
 <SEO {...data.contentPost} />
-<BreadCrumbs {...data.contentPost} />
+<!-- <BreadCrumbs {...data.contentPost} /> -->
 <Blog {...data.contentPost} />
