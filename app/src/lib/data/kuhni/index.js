@@ -64,37 +64,37 @@ const img = [
 const types = [
 	{
 		title: 'МДФ',
-		description: 'Кухонные гарнитуры с фасадами из МДФ с покрытием ПВХ',
+		description: 'Кухонные гарнитуры с фасадами из МДФ с покрытием ПВХ плёнкой',
 		link: 'kuhni/mdf',
 		img: ''
 	},
 	{
 		title: 'Патина',
-		description: 'Кухонные гарнитуры с фасадами из МДФ с патинированием',
+		description: 'Кухонные гарнитуры с фасадами из МДФ с патинированием фасадов',
 		link: 'kuhni/patina',
 		img: ''
 	},
 	{
 		title: 'Пластик',
-		description: 'Кухонные гарнитуры с фасадами из пластика в профиле',
+		description: 'Кухонные гарнитуры с фасадами из пластика в профиле или 3d-кромке',
 		link: 'kuhni/plastic',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/primula.jpeg'
 	},
 	{
 		title: 'Эмаль',
-		description: 'Варианты кухонных гарнитуров по низким ценам',
+		description: 'Кухонные гарнитуры с эмалированными фасадами разнообразной палитры',
 		link: 'kuhni/emal',
 		img: ''
 	},
 	{
 		title: 'Акрил',
-		description: 'Варианты кухонных гарнитуров по низким ценам',
+		description: 'Варианты кухонных гарнитуров с акриловыми фасадами с высоким глянцем',
 		link: 'kuhni/akril',
 		img: ''
 	},
 	{
 		title: 'ЛДСП',
-		description: 'Модули кухонных гарнитуров стандартных размеров',
+		description: 'Модули кухонных гарнитуров эконом класса стандартных размеров и под заказ',
 		link: 'kuhni/ldsp',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/milena.jpeg'
 	}
