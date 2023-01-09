@@ -1,5 +1,7 @@
 <script>
 	import axios from 'axios';
+	import Brands from '$lib/components/brands/index.svelte';
+
 	import { contactFormSent } from '$lib/store/stores.js';
 	import { useInvert } from '$lib/functions/invert';
 	const { invertToTrue } = useInvert;
@@ -38,12 +40,20 @@
 	export let content;
 </script>
 
-<div class="bg-slate-100">
-	<div class="w-full mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:px-8">
+<section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+        <a href="/#catalog" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
+            <span class="text-xs bg-blue-500 rounded-full text-white px-4 py-1.5 mr-3">Посмотреть</span> <span class="text-sm font-medium">Наш мебельный каталог</span> 
+            <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+        </a>
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Контакты</h1>
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Связаться с нами вы можете по телефону, по электронной почте или, приехав к нам, предварительно оговорив время встречи. Также мы можем встретиться у вас на объекте, если вы закажите услугу замерщика.</p>
+
+	<div class="w-full my-12">
 		<div class="relative bg-white shadow-xl">
 			<h2 class="sr-only">Контакты</h2>
 
-			<div class="grid grid-cols-1 lg:grid-cols-3">
+			<div class="grid grid-cols-1 lg:grid-cols-3 bg-gray-50 text-left">
 				<!-- Contact information -->
 				<div class="relative overflow-hidden py-10 px-6 bg-blue-600 sm:px-10 xl:p-12">
 					<div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
@@ -189,25 +199,13 @@
 								<span class="ml-3">{email}</span>
 							</dd>
 						{/each}
-
-						<dt><span class="sr-only">Почта</span></dt>
-						<!--                        <dd class="flex text-base text-blue-50">-->
-						<!--                            <a class="text-base text-blue-50 flex" href="https://vk.com/orbita_stroy"-->
-						<!--                               target="_blank">-->
-						<!--                                <svg class="mr-3 lex-shrink-0 w-6 h-6 text-blue-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
-						<!--                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />-->
-						<!--                                </svg>-->
-						<!--                                vk.com/orbita_stroy-->
-						<!--                            </a>-->
-						<!--                        </dd>-->
 					</dl>
 				</div>
 
 				<!-- Contact form -->
-				<!-- <Form_v2 {...contentForm_v2}/> -->
 				<div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
 					<h3 class="text-lg font-medium text-gray-900 border-b pb-2">
-						{header}
+						Предложение о сотрудничестве:
 					</h3>
 					<form
 						on:submit|preventDefault|once={sendSentence}
@@ -336,5 +334,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
 </div>
+    </div>
+</section>
+
+
