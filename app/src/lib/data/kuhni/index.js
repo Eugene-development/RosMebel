@@ -9,7 +9,8 @@ const SEO = {
 
 // BC
 const titleBC = 'Кухонные гарнитуры';
-const descriptionBC = 'Кухонные гарнитуры на заказ под ваши размеры. Дизайн проект в подарок.';
+const descriptionBC =
+	'Недорогие кухонные гарнитуры на заказ под ваши размеры по доступным ценам. Дизайн проект в подарок. Ждём вас!';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/4.jpg';
 
