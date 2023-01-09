@@ -38,10 +38,10 @@
 			<div
 				class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-9 text-gray-50 hover:text-gray-100"
 			>
-				<a href="/" class="font-semibold">Замер</a>
-				<a href="/" class="font-semibold">Доставка</a>
-				<a href="/" class="font-semibold">Установка</a>
-				<a href="/" class="font-semibold">Оплата</a>
+				<a href="/information/zamer" class="font-semibold">Замер</a>
+				<a href="/information/dostavka" class="font-semibold">Доставка</a>
+				<a href="/information/ustanovka" class="font-semibold">Установка</a>
+				<a href="/information/oplata" class="font-semibold">Оплата</a>
 				<a href="/contacts" class="font-semibold">Контакты</a>
 				<!-- <a href="/" class="font-semibold text-gray-900 hover:text-gray-900">Контакты</a> -->
 			</div>
