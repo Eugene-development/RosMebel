@@ -13,8 +13,8 @@
 				class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
 			>
 				{#each content.types as { title, description, link, img }}
-					<li>
-						<a href="/{link}" class="transition ease-in-out hover:scale-105">
+					<a href="/{link}" class="transition ease-in-out hover:scale-105">
+						<li>
 							<div class="space-y-3">
 								<div class="aspect-w-3 aspect-h-2">
 									<img class="rounded-lg object-cover shadow-lg " src={img} alt="мебель" />
@@ -28,11 +28,10 @@
 									</div>
 								</div>
 							</div>
-						</a>
-					</li>
+						</li>
+					</a>
 				{/each}
 			</ul>
 		</div>
 	</div>
 </div>
-
