@@ -1,9 +1,9 @@
-<div class="px-6 py-5 lg:px-8 bg-black">
+<div class="px-6 py-4 lg:px-8 bg-black">
 	<div>
 		<nav class="flex h-9 items-center justify-between" aria-label="Global">
 			<div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
 				<a href="/" class="">
-					<span class="sr-only">Your Company</span>
+					<span class="sr-only">Азбука Комфорта</span>
 					<img
 						class="h-10 mb-2"
 						src="https://storage.yandexcloud.net/brand-logo/azbuka-komforta/logo/logo2.png"
