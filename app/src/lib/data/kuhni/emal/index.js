@@ -8,10 +8,10 @@ const SEO = {
 };
 
 //BC
-const titleBC = 'Эмалированные кухонные гарнитуры';
+const titleBC = 'Кухонные гарнитуры - Эмаль';
 const descriptionBC = 'Ознакомьтесь с нашими вариантами эмалированных кухонных гарнитуров';
 const pathImgBC =
-	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
+	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/4.jpg';
 
 const parentPage = 'Кухонные гарнитуры';
 const parentPageLink = 'kuhni';

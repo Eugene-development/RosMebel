@@ -8,7 +8,7 @@ const SEO = {
 };
 
 //BC
-const titleBC = 'Кухонные гарнитуры МДФ';
+const titleBC = 'Кухонные гарнитуры - МДФ';
 const descriptionBC = 'Ознакомьтесь с нашими вариантами кухонных гарнитуров с фасадами МДФ';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/4.jpg';

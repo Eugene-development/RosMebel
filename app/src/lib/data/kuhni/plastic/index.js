@@ -8,8 +8,9 @@ const SEO = {
 };
 
 //BC
-const titleBC = 'Кухонные гарнитуры из пластика';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами кухонных гарнитуров с фасадами из пластика';
+const titleBC = 'Кухонные гарнитуры - Пластик';
+const descriptionBC =
+	'Ознакомьтесь с нашими вариантами кухонных гарнитуров с фасадами с покрытием пластиком';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/4.jpg';
 
