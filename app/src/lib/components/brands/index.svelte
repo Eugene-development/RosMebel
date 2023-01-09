@@ -13,7 +13,6 @@
 		{ name: 'FGV', logo: logoFGV },
 		{ name: 'Grass', logo: logoGrass },
 		{ name: 'GTV', logo: logoGTV }
-		//   { name: 'Hettich', logo: logoHettich },
 	];
 </script>
 
