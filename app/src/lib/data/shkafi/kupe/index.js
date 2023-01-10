@@ -54,12 +54,6 @@ const products = [
 		alt: ''
 	},
 	{
-		name: 'Челси',
-		text: '2800х2300х500',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/chelsi.jpeg',
-		alt: ''
-	},
-	{
 		name: 'Бабочки',
 		text: '1600х2150х600',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/geometria.jpeg',
@@ -120,12 +114,6 @@ const products = [
 		alt: ''
 	},
 	{
-		name: 'Люкс-2',
-		text: '900х2400х600',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/luks-2.jpeg',
-		alt: ''
-	},
-	{
 		name: 'Люкс-3',
 		text: '2300х2450х600',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/luks-3.jpeg',
@@ -135,18 +123,6 @@ const products = [
 		name: 'Марианна',
 		text: '2800х2400х600',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/mariana.jpeg',
-		alt: ''
-	},
-	{
-		name: 'Мимоза',
-		text: '3000х2200х600',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/mimosa.jpeg',
-		alt: ''
-	},
-	{
-		name: 'Нарцисс',
-		text: '2100х2300',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/narciss.jpeg',
 		alt: ''
 	},
 	{
@@ -183,12 +159,6 @@ const products = [
 		name: 'Турмалин',
 		text: '2200х2400х450',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/turmalin.jpeg',
-		alt: ''
-	},
-	{
-		name: 'Юнона',
-		text: '2600х2400х550',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/unona.jpeg',
 		alt: ''
 	},
 	{

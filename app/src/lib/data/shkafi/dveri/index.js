@@ -35,6 +35,13 @@ const mainText = {
 
 const products = [
 	{
+		name: 'Санди',
+		text: '2000х2400х600',
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/sandi.jpeg',
+		alt: ''
+	},
+
+	{
 		name: 'Фикус',
 		text: '1800х2200',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/ficus.jpeg',

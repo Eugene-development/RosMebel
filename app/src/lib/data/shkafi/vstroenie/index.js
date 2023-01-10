@@ -76,12 +76,6 @@ const products = [
 		alt: ''
 	},
 	{
-		name: 'Санди',
-		text: '2000х2400х600',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/sandi.jpeg',
-		alt: ''
-	},
-	{
 		name: 'Мимоза',
 		text: '1900х2300х600',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/shkaffoto-2.jpeg',

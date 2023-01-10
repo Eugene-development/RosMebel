@@ -73,31 +73,31 @@ const types = [
 		title: 'Распашные шкафы',
 		description: 'Пеналы и двух, трёх и четырёх створчатые шкафы с выдвижными ящиками',
 		link: 'shkafy/raspashnie',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg'
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/halcedon.jpeg'
 	},
 	{
 		title: 'Встроенные шкафы',
 		description: 'Безкаркасные шкафы встроенные в нишу с полками, ящиками и специальной фурнитурой',
 		link: 'shkafy/vstroenie',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg'
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/5.jpg'
 	},
 	{
 		title: 'Гардеробные',
 		description: 'Полнофункциональные гардеробные с любым наполнением и под любой размер',
 		link: 'shkafy/garderobnie',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg'
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/5.jpg'
 	},
 	{
 		title: 'Двери купе',
 		description: 'Двери купе в качестве перегородок или для закрытия ниш и гардеробных комнат',
 		link: 'shkafy/dveri',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg'
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/zhasmin.jpeg'
 	},
 	{
 		title: 'Офисные шкафы',
 		description: 'Стильные и строгие варианты шкафов для офисных помещений или для вашего дома',
 		link: 'shkafy/ofisnie',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg'
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/7.jpg'
 	}
 ];
 
