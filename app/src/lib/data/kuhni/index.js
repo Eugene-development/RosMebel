@@ -67,13 +67,13 @@ const types = [
 		title: 'МДФ',
 		description: 'Кухонные гарнитуры с фасадами из МДФ с покрытием ПВХ плёнкой',
 		link: 'kuhni/mdf',
-		img: ''
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/elena.jpeg'
 	},
 	{
 		title: 'Патина',
 		description: 'Кухонные гарнитуры с фасадами из МДФ с патинированием фасадов',
 		link: 'kuhni/patina',
-		img: ''
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/elina.jpeg'
 	},
 	{
 		title: 'Пластик',
@@ -85,13 +85,13 @@ const types = [
 		title: 'Эмаль',
 		description: 'Кухонные гарнитуры с эмалированными фасадами разнообразной палитры',
 		link: 'kuhni/emal',
-		img: ''
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/kapuchino.jpeg'
 	},
 	{
 		title: 'Акрил',
 		description: 'Варианты кухонных гарнитуров с акриловыми фасадами с высоким глянцем',
 		link: 'kuhni/akril',
-		img: ''
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/scarlet.jpeg'
 	},
 	{
 		title: 'ЛДСП',

@@ -34,12 +34,6 @@ const mainText = {
 
 const products = [
 	{
-		name: 'Астра',
-		text: '2600х2150х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/astra.jpeg',
-		alt: ''
-	},
-	{
 		name: 'Чикаго',
 		text: '2900х2300х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/chikago.jpeg',
@@ -52,21 +46,9 @@ const products = [
 		alt: ''
 	},
 	{
-		name: 'Домино',
-		text: '2300х2160х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/domino.jpeg',
-		alt: ''
-	},
-	{
 		name: 'Эвелина',
 		text: '2800х2300х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/evelina.jpeg',
-		alt: ''
-	},
-	{
-		name: 'Гардения',
-		text: '2800х2170х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/gardenia.jpeg',
 		alt: ''
 	},
 	{
@@ -82,33 +64,15 @@ const products = [
 		alt: ''
 	},
 	{
-		name: 'Модерн',
-		text: '3600х2200х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/modern.jpeg',
+		name: 'Дива',
+		text: '2800х2160х600/320',
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/diva.jpeg',
 		alt: ''
 	},
 	{
-		name: 'Натали',
-		text: '3200х2400х600х300',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/natali.jpeg',
-		alt: ''
-	},
-	{
-		name: 'Примула',
-		text: '3200х2150х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/primula.jpeg',
-		alt: ''
-	},
-	{
-		name: 'Скарлет',
-		text: '2300х2160х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/scarlet.jpeg',
-		alt: ''
-	},
-	{
-		name: 'Золушка',
-		text: '2500х2170х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/zolushka.jpeg',
+		name: 'Эвелина',
+		text: '2800х2300х600/320',
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/evelina.jpeg',
 		alt: ''
 	}
 ];

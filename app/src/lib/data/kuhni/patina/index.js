@@ -35,33 +35,21 @@ const mainText = {
 
 const products = [
 	{
-		name: 'Дива',
-		text: '2800х2160х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/diva.jpeg',
+		name: 'Золушка',
+		text: '2500х2170х600/320',
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/zolushka.jpeg',
 		alt: ''
 	},
 	{
-		name: 'Эвелина',
-		text: '2800х2300х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/evelina.jpeg',
+		name: 'Лиза',
+		text: '2200х1800х2200х600/320',
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/liza.jpeg',
 		alt: ''
 	},
 	{
-		name: 'Лиана',
-		text: '2400х2150х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/liana.jpeg',
-		alt: ''
-	},
-	{
-		name: 'Милена',
-		text: '3200х2150х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/milena.jpeg',
-		alt: ''
-	},
-	{
-		name: 'Прага',
-		text: '2000/3000х2160х600/320',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/praga.jpeg',
+		name: 'Элина',
+		text: '2000/2500х2200х600/320',
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/elina.jpeg',
 		alt: ''
 	}
 ];
