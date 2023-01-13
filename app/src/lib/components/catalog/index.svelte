@@ -10,14 +10,14 @@
 		{
 			title: 'Шкафы',
 			description:
-				"Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+				"Красивые и практичные шкафы любого размера под заказ для вашей спальни, балкона или прихожей",
 			image: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/shkaf.jpeg',
 			link: 'shkafy'
 		},
 		{
 			title: 'Кухонные гарнитуры',
 			description:
-				"All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+				"Вместительные и качественные кухонные гарнитуры под любой размер кухни и со всеми пожеланиями заказчика",
 			image: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/kitchen.jpeg',
 			link: 'kuhni'
 		},
@@ -30,21 +30,9 @@
 		{
 			title: 'Обеденные группы',
 			description:
-				'All of your receipts organized into one place, as long as you dont mind typing in the data by hand.',
+				'Столы и стулья с покрытием из пластика или стекла в любой комплектации и различном цветовом решении',
 			image: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/kitchen.jpeg'
 		}
-		// {
-		// 	title: 'Офисная мебель',
-		// 	description:
-		// 		'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-		// 	image: screenshotReporting
-		// }
-		// {
-		//   title: 'Личный менеджер',
-		//   description:
-		//     'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-		//   image: screenshotReporting,
-		// },
 	];
 </script>
 
