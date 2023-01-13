@@ -4,6 +4,7 @@
 	import avatarImage3 from '$lib/images/avatars/avatar-3.png';
 	import avatarImage4 from '$lib/images/avatars/avatar-4.png';
 	import avatarImage5 from '$lib/images/avatars/avatar-5.png';
+	import avatarImage6 from '$lib/images/avatars/face.jpeg';
 
 	const testimonials = [
 		[
@@ -12,16 +13,16 @@
 					'Спасибо за быстро выполненную работу! Обязательно обратимся за мебелью ещё в следующем году.',
 				author: {
 					name: 'Татьяна Р.',
-					role: '22 ноября 2022',
+					role: '22 ноября 2021',
 					image: avatarImage1
 				}
 			},
 			{
 				content: '',
 				author: {
-					name: '',
-					role: '',
-					image: avatarImage4
+					name: 'Саня',
+					role: '12 октября 2022',
+					image: avatarImage6
 				}
 			}
 		],
@@ -30,16 +31,16 @@
 				content:
 					'Лучший опыт это собственный. Не пожалел. Заказ был сложный и недешёвый для нашего бюджета. Молодцы что справились и сделали гарнитур по моим желаниям.',
 				author: {
-					name: '',
-					role: '',
+					name: 'Сергей Викторович Вавилов',
+					role: '17 февраля 2022',
 					image: avatarImage5
 				}
 			},
 			{
 				content: '',
 				author: {
-					name: '',
-					role: '',
+					name: 'Оленька',
+					role: '30 июня 2022',
 					image: avatarImage2
 				}
 			}
@@ -48,16 +49,16 @@
 			{
 				content: '',
 				author: {
-					name: '',
-					role: '',
+					name: 'Ринат А.',
+					role: '22 мая 2022',
 					image: avatarImage3
 				}
 			},
 			{
-				content: '',
+				content: 'Я давно мечтала о шкафе-купе, но не могла найти подходящий в магазинах. Но когда я узнала о возможности заказать мебель на заказ, решила попробовать. И я не пожалела! Шкаф превосходно соответствует моим пожеланиям и идеально вписывается в интерьер комнаты. Я очень довольна моей покупкой!',
 				author: {
-					name: '',
-					role: '',
+					name: 'Ася',
+					role: '11 января 2023',
 					image: avatarImage4
 				}
 			}
