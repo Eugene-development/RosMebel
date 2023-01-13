@@ -9,7 +9,8 @@ const SEO = {
 
 //BC
 const titleBC = 'Кухонные гарнитуры - ЛДСП';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами кухонными гарнитурами с фасадами из ЛДСП';
+const descriptionBC =
+	'Ознакомьтесь с нашими вариантами кухонными гарнитурами эконом класса с фасадами из ЛДСП';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/4.jpg';
 
@@ -37,43 +38,43 @@ const products = [
 		name: 'Чикаго',
 		text: '2900х2300х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/chikago.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	},
 	{
 		name: 'Дива',
 		text: '2800х2160х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/diva.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	},
 	{
 		name: 'Эвелина',
 		text: '2800х2300х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/evelina.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	},
 	{
 		name: 'Лиана',
 		text: '2400х2150х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/liana.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	},
 	{
 		name: 'Милена',
 		text: '3200х2150х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/milena.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	},
 	{
 		name: 'Дива',
 		text: '2800х2160х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/diva.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	},
 	{
 		name: 'Эвелина',
 		text: '2800х2300х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/evelina.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	}
 ];
 

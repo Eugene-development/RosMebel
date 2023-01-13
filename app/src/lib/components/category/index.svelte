@@ -14,10 +14,10 @@
 			<div class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-8 sm:space-y-0 lg:grid-cols-3 lg:gap-10">
 				{#each content.products as { name, text, img, alt }}
 					<div
-						class="transition ease-in-out hover:scale-105 py-10 px-6  text-center rounded-lg xl:px-8 xl:text-left shadow-2xl shadow-gray-600"
+						class="transition ease-in-out hover:scale-105 py-10 px-6 text-center rounded-lg xl:px-8 xl:text-left shadow-2xl shadow-gray-600"
 					>
 						<div class="space-y-8 xl:space-y-10">
-							<img class="mx-auto  rounded-md h-56 object-cover" src={img} {alt} />
+							<img class="mx-auto  rounded-md h-64 object-cover" src={img} {alt} />
 							<!-- <img class="mx-auto w-80 h-56 rounded-md xl:w-96 xl:h-56" src={img} {alt} /> -->
 							<div class="space-y-2 xl:flex xl:items-center xl:justify-between">
 								<div class="font-medium text-lg leading-6 space-y-1 divide-y divide-green-300">

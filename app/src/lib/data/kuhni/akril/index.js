@@ -9,7 +9,8 @@ const SEO = {
 
 //BC
 const titleBC = 'Акриловые кухонные гарнитуры';
-const descriptionBC = 'Ознакомьтесь с нашими вариантами кухонных гарнитуров с акриловыми фасадами';
+const descriptionBC =
+	'Ознакомьтесь с нашими вариантами кухонных гарнитуров с глянцевыми акриловыми фасадами';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/4.jpg';
 
@@ -37,19 +38,19 @@ const products = [
 		name: 'Скарлет',
 		text: '2300х2160х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/scarlet.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	},
 	{
 		name: 'Астра',
 		text: '2600х2150х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/astra.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	},
 	{
 		name: 'Рианна',
 		text: '2200/2600х2200х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/riana.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	}
 ];
 

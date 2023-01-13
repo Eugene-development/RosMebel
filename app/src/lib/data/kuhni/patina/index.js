@@ -10,7 +10,7 @@ const SEO = {
 // BC
 const titleBC = 'Кухонные гарнитуры - Патина';
 const descriptionBC =
-	'Ознакомьтесь с нашими вариантами кухонных гарнитуров с патинированными фасадами';
+	'Ознакомьтесь с нашими вариантами кухонных гарнитуров с классическими патинированными фасадами';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/kitchens/4.jpg';
 
@@ -38,19 +38,19 @@ const products = [
 		name: 'Золушка',
 		text: '2500х2170х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/zolushka.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	},
 	{
 		name: 'Лиза',
 		text: '2200х1800х2200х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/liza.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	},
 	{
 		name: 'Элина',
 		text: '2000/2500х2200х600/320',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/kuhni/elina.jpeg',
-		alt: ''
+		alt: 'Кухонный гарнитур'
 	}
 ];
 
