@@ -10,14 +10,14 @@
 		{
 			title: 'Шкафы',
 			description:
-				"Красивые и практичные шкафы любого размера под заказ для вашей спальни, балкона или прихожей",
+				'Красивые и практичные шкафы любого размера под заказ для вашей спальни, балкона или прихожей',
 			image: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/shkaf.jpeg',
 			link: 'shkafy'
 		},
 		{
 			title: 'Кухонные гарнитуры',
 			description:
-				"Вместительные и качественные кухонные гарнитуры под любой размер кухни и со всеми пожеланиями заказчика",
+				'Вместительные и качественные кухонные гарнитуры под любой размер кухни и со всеми пожеланиями заказчика',
 			image: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV1/kitchen.jpeg',
 			link: 'kuhni'
 		},

@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title> {data.companyName} | Мебель на заказ</title>
+	<title>{data.companyName} | Мебель на заказ</title>
 	<meta
 		name="description"
 		content="Мебель на заказ для вашей квартиры, дома или офиса от компании {data.companyName}. Заказывайте бесплатный обмер на нашем сайте."
