@@ -75,15 +75,15 @@
 					class="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal"
 				>
 					{#each features as feature}
-						<a href={feature.link}>
+						<!-- <a href={feature.link}> -->
 							<div
 								on:mouseenter={() => (img = feature.image)}
 								key={feature.title}
-								class="transition ease-in-out hover:scale-105 my-3 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-8 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
+								class="transition ease-in-out hover:scale-105 hidden lg:block my-3 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-8 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
 							>
 								<h3>
 									<Tab
-										class="font-display text-2xl [&:not(:focus-visible)]:focus:outline-none text-blue-100 hover:text-white lg:text-white"
+										class="font-display text-2xl  text-blue-100 hover:text-white lg:text-white"
 									>
 										<span class="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl" />
 										{feature.title}
@@ -93,7 +93,7 @@
 									{feature.description}
 								</p>
 							</div>
-						</a>
+						<!-- </a> -->
 					{/each}
 				</TabList>
 			</div>
