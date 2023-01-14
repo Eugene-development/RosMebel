@@ -1,5 +1,7 @@
 <script>
 	import { visibleFormMeasurement } from '$lib/store/stores';
+    import { useInvert } from '$lib/functions/broker';
+	const { invert } = useInvert;
 </script>
 
 {#if $visibleFormMeasurement}
@@ -11,15 +13,15 @@
 			<div class="absolute inset-0 overflow-hidden">
 				<div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10 sm:pl-16">
 					<!--
-			Slide-over panel, show/hide based on slide-over state.
+                    Slide-over panel, show/hide based on slide-over state.
 
-			Entering: "transform transition ease-in-out duration-500 sm:duration-700"
-				From: "translate-x-full"
-				To: "translate-x-0"
-			Leaving: "transform transition ease-in-out duration-500 sm:duration-700"
-				From: "translate-x-0"
-				To: "translate-x-full"
-			-->
+                    Entering: "transform transition ease-in-out duration-500 sm:duration-700"
+                        From: "translate-x-full"
+                        To: "translate-x-0"
+                    Leaving: "transform transition ease-in-out duration-500 sm:duration-700"
+                        From: "translate-x-0"
+                        To: "translate-x-full"
+                    -->
 					<div class="pointer-events-auto w-screen max-w-md">
 						<form class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
 							<div class="h-0 flex-1 overflow-y-auto">
@@ -30,6 +32,7 @@
 										</h2>
 										<div class="ml-3 flex h-7 items-center">
 											<button
+                                                on:click={() => visibleFormMeasurement.update(invert)}
 												type="button"
 												class="rounded-md bg-green-600 text-green-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
 											>
