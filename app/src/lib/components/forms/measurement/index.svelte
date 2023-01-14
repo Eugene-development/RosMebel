@@ -2,10 +2,46 @@
 	import { visibleFormMeasurement } from '$lib/store/stores';
     import { useInvert } from '$lib/functions/broker';
 	const { invert } = useInvert;
+    
+    let name;
+    let phone;
+    let time;
+    let address;
+    let comment;
+
+    const url = `/sendMeasurement`;
+    const apiCRUD = {
+        baseURL: 'https://larux.ru:7721/',
+        headers: {
+            Authorization: `Bearer ???`
+        }
+    }
+    async function sendFormMeasurement() {
+
+        try {
+            const data = {
+                name,
+                phone,
+                time,
+                address,
+                comment,
+            };
+            // await axios.post(url, data, apiCRUD);
+            name = '';
+            phone = '';
+            time = '';
+            address = '';
+            comment = '';
+            visibleFormMeasurement.update(invert);
+        } catch (error) {
+            console.error(error);
+        }
+    }
+
 </script>
 
 {#if $visibleFormMeasurement}
-	<div class="relative z-10" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
+	<div class="relative z-50" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
 		<!-- Background backdrop, show/hide based on slide-over state. -->
 		<div class="fixed inset-0" />
 
@@ -23,7 +59,7 @@
                         To: "translate-x-full"
                     -->
 					<div class="pointer-events-auto w-screen max-w-md">
-						<form class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
+						<form on:submit|preventDefault={sendFormMeasurement} class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
 							<div class="h-0 flex-1 overflow-y-auto">
 								<div class="bg-green-600 py-6 px-4 sm:px-6">
 									<div class="flex items-center justify-between">
@@ -71,6 +107,8 @@
 												>
 												<div class="mt-1">
 													<input
+                                                        bind:value={name}
+                                                        required
 														type="text"
 														name="project-name"
 														id="project-name"
@@ -84,6 +122,8 @@
 												>
 												<div class="mt-1">
 													<input
+                                                        bind:value={phone}
+                                                        required
 														type="tel"
 														name="phone"
 														id="phone"
@@ -92,14 +132,15 @@
 												</div>
 											</div>
 											<div>
-												<label for="email" class="block text-sm font-medium text-gray-900"
-													>Почта (необязательно)</label
+												<label for="time" class="block text-sm font-medium text-gray-900"
+													>Удобное время</label
 												>
 												<div class="mt-1">
 													<input
-														type="email"
-														name="email"
-														id="email"
+                                                        bind:value={time}
+														type="text"
+														name="time"
+														id="time"
 														class="block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
 													/>
 												</div>
@@ -110,6 +151,8 @@
 												>
 												<div class="mt-1">
 													<input
+                                                        bind:value={address}
+                                                        required
 														type="text"
 														name="address"
 														id="address"
@@ -123,6 +166,7 @@
 												>
 												<div class="mt-1">
 													<textarea
+                                                        bind:value={comment}
 														id="description"
 														name="description"
 														rows="4"
