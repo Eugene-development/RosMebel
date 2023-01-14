@@ -52,7 +52,7 @@
 											<path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
 										</svg>
 										<a
-											href="/#catalog"
+											href="/catalog"
 											class="ml-4 text-sm font-medium text-gray-100 hover:text-gray-100">Каталог</a
 										>
 									</div>
