@@ -51,13 +51,13 @@
 							</span>
 							для вашего дома и офиса
 						</h1>
-						<p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
+						<p class="mt-6 text-lg leading-8 text-gray-600 text-center">
 							Качественная и недорогая корпусная мебель на заказ с услугами доставки и установки.
 						</p>
 						<div class="mt-8 flex gap-x-4 sm:justify-center ">
 							<a
 								href="#catalog"
-								class="inline-block rounded-lg bg-gradient-to-tr from-red-600 via-red-900 to-red-600 hover:bg-gradient-to-bl px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1"
+								class="inline-block rounded-lg bg-gradient-to-tr from-red-600 via-red-900 to-red-600 hover:bg-gradient-to-bl px-4 py-1.5 text-base text-center font-semibold leading-7 text-white shadow-sm ring-1"
 							>
 								Посмотреть каталог
 								<span class="text-red-100" aria-hidden="true">&rarr;</span>
@@ -65,7 +65,7 @@
 							<button
 								on:click={() => visibleFormMeasurement.update(invert)}
 								type="button"
-								class="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+								class="inline-block rounded-lg px-4 py-1.5 text-xs sm:text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
 							>
 								Запись на бесплатный замер
 								<span class="text-gray-400" aria-hidden="true">&rarr;</span>
