@@ -1,4 +1,9 @@
-<!-- This example requires Tailwind CSS v3.0+ -->
+<script>
+	import { visibleFormMeasurement } from '$lib/store/stores';
+    import { useInvert } from '$lib/functions/broker';
+	const { invert } = useInvert;
+</script>
+
 <div class="isolate bg-white">
 	<!-- <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
     <svg class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,13 +62,14 @@
 								Посмотреть каталог
 								<span class="text-red-100" aria-hidden="true">&rarr;</span>
 							</a>
-							<a
-								href="/"
+							<button
+								on:click={() => visibleFormMeasurement.update(invert)}
+								type="button"
 								class="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
 							>
-								Заказать сборку
+								Запись на бесплатный замер
 								<span class="text-gray-400" aria-hidden="true">&rarr;</span>
-							</a>
+							</button>
 						</div>
 					</div>
 					<div
