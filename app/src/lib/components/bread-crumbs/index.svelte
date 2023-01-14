@@ -1,4 +1,8 @@
 <script>
+	import { visibleFormMeasurement } from '$lib/store/stores';
+    import { useInvert } from '$lib/functions/broker';
+	const { invert } = useInvert;
+
 	export let BC;
 </script>
 
@@ -108,6 +112,8 @@
 									class="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0"
 								>
 									<button
+									    on:click={() => visibleFormMeasurement.update(invert)}
+										type="button"
 										class="flex w-full items-center justify-center rounded-md border border-transparent bg-green-400 px-4 py-3 text-base font-medium text-gray-100 shadow-sm sm:px-8 bg-opacity-30 hover:bg-opacity-20"
 										>Записаться на замер</button
 									>
