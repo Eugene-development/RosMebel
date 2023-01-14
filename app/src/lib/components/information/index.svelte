@@ -1,5 +1,8 @@
 <script>
 	import Brands from '$lib/components/brands/index.svelte';
+	import { visibleFormMeasurement } from '$lib/store/stores';
+    import { useInvert } from '$lib/functions/broker';
+	const { invert } = useInvert;
 	export let content;
 </script>
 
@@ -8,7 +11,6 @@
 		<a
 			href="/#catalog"
 			class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
-			role="alert"
 		>
 			<span class="text-xs bg-blue-500 rounded-full text-white px-4 py-1.5 mr-3">Посмотреть</span>
 			<span class="text-sm font-medium">Наш мебельный каталог</span>
@@ -38,6 +40,8 @@
 			class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
 		>
 			<button
+				on:click={() => visibleFormMeasurement.update(invert)}
+				type="button"
 				class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
 			>
 				Записаться на бесплатный замер
