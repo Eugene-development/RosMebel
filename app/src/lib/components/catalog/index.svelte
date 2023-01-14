@@ -50,14 +50,14 @@
 		unoptimized
 	/>
 	<div class="relative">
-		<div class="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-			<h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
+		<div class="max-w-3xl mx-auto text-center xl:max-w-none">
+			<h2 class="font-display text-2xl tracking-tight text-white sm:text-4xl md:text-5xl">
 				Наш каталог мебели
 			</h2>
 			<!-- <p class="mt-5 text-lg tracking-tight text-blue-100">
 				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит по размерам вашему помещению.
 			</p> -->
-			<p class="mt-6 text-lg tracking-tight text-blue-100">
+			<p class="mt-6 text-sm sm:text-lg tracking-tight text-blue-100">
 				Приобретая мебель на заказ вы получаете за разумную цену именно то что хотели и что подходит
 				по размерам вашему помещению. А наши замерщики и консультанты помогут вам не ошибиться и
 				сделать правильный выбор.
