@@ -42,12 +42,12 @@
 						<div
 							class="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
 						>
-							<span class="text-gray-600">
-								Посетите наш мебельный блог <a href="/blog" class="font-semibold text-blue-600"
-									><span class="absolute inset-0" aria-hidden="true" />Почитать
-									<span aria-hidden="true">&rarr;</span></a
-								>
+						<a href="/blog" class="font-semibold "
+									>
+							<span class="text-gray-600">Посетите наш мебельный блог <span class=" absolute inset-0" aria-hidden="true" />
+									<span aria-hidden="true" class="ml-2 text-blue-600">Почитать &rarr;</span>								
 							</span>
+						</a>
 						</div>
 					</div>
 					<div>
