@@ -71,7 +71,7 @@
 			</div>
 		</nav>
 		<!-- Mobile menu, show/hide based on menu open state. -->
-		{#if false}
+		{#if true}
 			<div role="dialog" aria-modal="true">
 				<div focus="true" class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
 					<div class="flex h-9 items-center justify-between">
@@ -80,7 +80,7 @@
 								<span class="sr-only">Your Company</span>
 								<img
 									class="h-8"
-									src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
+									src="https://storage.yandexcloud.net/brand-logo/azbuka-komforta/logo/logo4.png"
 									alt=""
 								/>
 							</a>
@@ -110,34 +110,60 @@
 						<div class="-my-6 divide-y divide-gray-500/10">
 							<div class="space-y-2 py-6">
 								<a
-									href="/"
+									href="/catalog"
 									class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-									>Product</a
+									>Каталог</a
 								>
 
 								<a
-									href="/"
+									href="/information/zamer"
 									class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-									>Features</a
+									>Замер</a
 								>
 
 								<a
-									href="/"
+									href="/information/dostavka"
 									class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-									>Marketplace</a
+									>Доставка</a
 								>
 
 								<a
-									href="/"
+									href="/information/ustanovka"
 									class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-									>Company</a
+									>Установка</a
+								>
+
+								<a
+									href="/information/oplata"
+									class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+									>Оплата</a
+								>
+
+								<a
+									href="/contacts"
+									class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+									>Контакты</a
 								>
 							</div>
-							<div class="py-6">
+							<div class="inline-flex items-center justify-center py-6">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-5 w-5 text-gray-900 mr-2"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+									stroke-width="2"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
+									/>
+								</svg>
 								<a
-									href="/"
+									href="tel:79306711455"
 									class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
-									>Log in</a
+									>8 (930) 671-14-55</a
 								>
 							</div>
 						</div>
