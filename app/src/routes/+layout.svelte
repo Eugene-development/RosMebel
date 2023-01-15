@@ -4,6 +4,7 @@
 	import Header from '$lib/components/header/index.svelte';
 	import Footer from '$lib/components/footer/index.svelte';
 	import FormMeasurement from '$lib/components/forms/measurement/index.svelte';
+	import MobileMenu from '$lib/components/mobile-menu/index.svelte';
 	export let data;
 </script>
 
@@ -13,3 +14,4 @@
 <Footer {...data.contentFooter} />
 
 <FormMeasurement />
+<MobileMenu />

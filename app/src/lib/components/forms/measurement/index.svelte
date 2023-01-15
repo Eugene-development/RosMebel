@@ -1,4 +1,5 @@
 <script>
+	import axios from 'axios';
 	import { fly } from 'svelte/transition'
     let width;
 
