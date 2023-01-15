@@ -6,34 +6,34 @@
 	import { useInvert } from '$lib/functions/broker';
 	const { invert } = useInvert;
 
-	let name;
-	let phone;
-	let time;
-	let address;
-	let comment;
+	let nameForm;
+	let phoneForm;
+	let addressForm;
+	let timeForm;
+	let commentForm;
 
-	const url = `/sendMeasurement`;
+	const url = `/send-main-form-azbuka`;
 	const apiCRUD = {
 		baseURL: 'https://larux.ru:7721/',
 		headers: {
-			Authorization: `Bearer ???`
+			Authorization: `Bearer 7`
 		}
 	};
 	async function sendFormMeasurement() {
 		try {
 			const data = {
-				name,
-				phone,
-				time,
-				address,
-				comment
+				nameForm,
+				phoneForm,
+				timeForm,
+				addressForm,
+				commentForm
 			};
-			// await axios.post(url, data, apiCRUD);
-			name = '';
-			phone = '';
-			time = '';
-			address = '';
-			comment = '';
+			await axios.post(url, data, apiCRUD);
+			nameForm = '';
+			phoneForm = '';
+			timeForm = '';
+			addressForm = '';
+			commentForm = '';
 			visibleFormMeasurement.update(invert);
 		} catch (error) {
 			console.error(error);
@@ -109,16 +109,16 @@
 									<div class="divide-y divide-gray-200 px-4 sm:px-6">
 										<div class="space-y-6 pt-6 pb-5">
 											<div>
-												<label for="project-name" class="block text-sm font-medium text-gray-900"
+												<label for="name" class="block text-sm font-medium text-gray-900"
 													>Ваше имя</label
 												>
 												<div class="mt-1">
 													<input
-														bind:value={name}
+														bind:value={nameForm}
 														required
 														type="text"
-														name="project-name"
-														id="project-name"
+														name="nameForm"
+														id="name"
 														class="block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
 													/>
 												</div>
@@ -129,10 +129,10 @@
 												>
 												<div class="mt-1">
 													<input
-														bind:value={phone}
+														bind:value={phoneForm}
 														required
 														type="tel"
-														name="phone"
+														name="phoneForm"
 														id="phone"
 														class="block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
 													/>
@@ -144,9 +144,9 @@
 												>
 												<div class="mt-1">
 													<input
-														bind:value={time}
+														bind:value={timeForm}
 														type="text"
-														name="time"
+														name="timeForm"
 														id="time"
 														class="block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
 													/>
@@ -158,11 +158,11 @@
 												>
 												<div class="mt-1">
 													<input
-														bind:value={address}
+														bind:value={addressForm}
 														required
 														type="text"
 														name="address"
-														id="address"
+														id="addressForm"
 														class="block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
 													/>
 												</div>
@@ -173,9 +173,9 @@
 												>
 												<div class="mt-1">
 													<textarea
-														bind:value={comment}
+														bind:value={commentForm}
 														id="description"
-														name="description"
+														name="commentForm"
 														rows="4"
 														class="block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm"
 													/>
