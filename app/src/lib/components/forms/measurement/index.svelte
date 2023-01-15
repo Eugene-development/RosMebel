@@ -1,4 +1,7 @@
 <script>
+	import { fly } from 'svelte/transition'
+    let width;
+
 	import { visibleFormMeasurement } from '$lib/store/stores';
 	import { useInvert } from '$lib/functions/broker';
 	const { invert } = useInvert;
@@ -56,7 +59,8 @@
                         From: "translate-x-0"
                         To: "translate-x-full"
                     -->
-					<div class="pointer-events-auto w-screen max-w-md ">
+					
+					<div bind:clientWidth={width} transition:fly={{ x: width }} class="pointer-events-auto w-screen max-w-md ">
 						<form
 							on:submit|preventDefault={sendFormMeasurement}
 							class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl"
