@@ -1,47 +1,45 @@
 <script>
 	import { visibleFormMeasurement } from '$lib/store/stores';
-    import { useInvert } from '$lib/functions/broker';
+	import { useInvert } from '$lib/functions/broker';
 	const { invert } = useInvert;
-    
-    let name;
-    let phone;
-    let time;
-    let address;
-    let comment;
 
-    const url = `/sendMeasurement`;
-    const apiCRUD = {
-        baseURL: 'https://larux.ru:7721/',
-        headers: {
-            Authorization: `Bearer ???`
-        }
-    }
-    async function sendFormMeasurement() {
+	let name;
+	let phone;
+	let time;
+	let address;
+	let comment;
 
-        try {
-            const data = {
-                name,
-                phone,
-                time,
-                address,
-                comment,
-            };
-            // await axios.post(url, data, apiCRUD);
-            name = '';
-            phone = '';
-            time = '';
-            address = '';
-            comment = '';
-            visibleFormMeasurement.update(invert);
-        } catch (error) {
-            console.error(error);
-        }
-    }
-
+	const url = `/sendMeasurement`;
+	const apiCRUD = {
+		baseURL: 'https://larux.ru:7721/',
+		headers: {
+			Authorization: `Bearer ???`
+		}
+	};
+	async function sendFormMeasurement() {
+		try {
+			const data = {
+				name,
+				phone,
+				time,
+				address,
+				comment
+			};
+			// await axios.post(url, data, apiCRUD);
+			name = '';
+			phone = '';
+			time = '';
+			address = '';
+			comment = '';
+			visibleFormMeasurement.update(invert);
+		} catch (error) {
+			console.error(error);
+		}
+	}
 </script>
 
 {#if $visibleFormMeasurement}
-	<div class="relative z-50" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
+	<div class="relative z-50 " aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
 		<!-- Background backdrop, show/hide based on slide-over state. -->
 		<div class="fixed inset-0" />
 
@@ -58,19 +56,24 @@
                         From: "translate-x-0"
                         To: "translate-x-full"
                     -->
-					<div class="pointer-events-auto w-screen max-w-md">
-						<form on:submit|preventDefault={sendFormMeasurement} class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl">
+					<div class="pointer-events-auto w-screen max-w-md ">
+						<form
+							on:submit|preventDefault={sendFormMeasurement}
+							class="flex h-full flex-col divide-y divide-gray-200 bg-white shadow-xl"
+						>
 							<div class="h-0 flex-1 overflow-y-auto">
-								<div class="bg-green-600 py-6 px-4 sm:px-6">
+								<div
+									class="bg-gradient-to-tr from-green-600 via-green-700 to-green-600 py-6 px-4 sm:px-6"
+								>
 									<div class="flex items-center justify-between">
 										<h2 class="text-lg font-medium text-white" id="slide-over-title">
 											Запись на замер
 										</h2>
 										<div class="ml-3 flex h-7 items-center">
 											<button
-                                                on:click={() => visibleFormMeasurement.update(invert)}
+												on:click={() => visibleFormMeasurement.update(invert)}
 												type="button"
-												class="rounded-md bg-green-600 text-green-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
+												class="rounded-md bg-green-600 text-green-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
 											>
 												<span class="sr-only">Close panel</span>
 												<!-- Heroicon name: outline/x-mark -->
@@ -107,8 +110,8 @@
 												>
 												<div class="mt-1">
 													<input
-                                                        bind:value={name}
-                                                        required
+														bind:value={name}
+														required
 														type="text"
 														name="project-name"
 														id="project-name"
@@ -122,8 +125,8 @@
 												>
 												<div class="mt-1">
 													<input
-                                                        bind:value={phone}
-                                                        required
+														bind:value={phone}
+														required
 														type="tel"
 														name="phone"
 														id="phone"
@@ -137,7 +140,7 @@
 												>
 												<div class="mt-1">
 													<input
-                                                        bind:value={time}
+														bind:value={time}
 														type="text"
 														name="time"
 														id="time"
@@ -151,8 +154,8 @@
 												>
 												<div class="mt-1">
 													<input
-                                                        bind:value={address}
-                                                        required
+														bind:value={address}
+														required
 														type="text"
 														name="address"
 														id="address"
@@ -166,7 +169,7 @@
 												>
 												<div class="mt-1">
 													<textarea
-                                                        bind:value={comment}
+														bind:value={comment}
 														id="description"
 														name="description"
 														rows="4"
@@ -236,7 +239,7 @@
 							</div>
 							<div class="flex flex-shrink-0 justify-end px-4 py-4">
 								<button
-                                    on:click={() => visibleFormMeasurement.update(invert)}
+									on:click={() => visibleFormMeasurement.update(invert)}
 									type="button"
 									class="rounded-md border border-gray-300 bg-white py-2 px-4 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
 									>Отменить</button

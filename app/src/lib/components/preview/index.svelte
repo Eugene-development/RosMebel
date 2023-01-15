@@ -76,23 +76,21 @@
 				>
 					{#each features as feature}
 						<!-- <a href={feature.link}> -->
-							<div
-								on:mouseenter={() => (img = feature.image)}
-								key={feature.title}
-								class="transition ease-in-out hover:scale-105 hidden lg:block my-3 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-8 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
-							>
-								<h3>
-									<Tab
-										class="font-display text-2xl  text-blue-100 hover:text-white lg:text-white"
-									>
-										<span class="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl" />
-										{feature.title}
-									</Tab>
-								</h3>
-								<p class="mt-1 hidden text-sm lg:block text-white">
-									{feature.description}
-								</p>
-							</div>
+						<div
+							on:mouseenter={() => (img = feature.image)}
+							key={feature.title}
+							class="transition ease-in-out hover:scale-105 hidden lg:block my-3 group relative rounded-full py-2 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-8 bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10"
+						>
+							<h3>
+								<Tab class="font-display text-2xl  text-blue-100 hover:text-white lg:text-white">
+									<span class="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl" />
+									{feature.title}
+								</Tab>
+							</h3>
+							<p class="mt-1 hidden text-sm lg:block text-white">
+								{feature.description}
+							</p>
+						</div>
 						<!-- </a> -->
 					{/each}
 				</TabList>

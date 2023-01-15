@@ -1,7 +1,7 @@
 <script>
 	import Brands from '$lib/components/brands/index.svelte';
 	import { visibleFormMeasurement } from '$lib/store/stores';
-    import { useInvert } from '$lib/functions/broker';
+	import { useInvert } from '$lib/functions/broker';
 	const { invert } = useInvert;
 	export let content;
 </script>

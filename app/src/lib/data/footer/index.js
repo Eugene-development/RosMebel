@@ -2,7 +2,7 @@ const yearStart = '2001';
 const now = new Date();
 const yearNow = now.getFullYear();
 
-const text = 'Компания "Азбука Комфорта". Кухонные гарнитуры и шкафы купе на заказ.';
+const text = 'Компания "Азбука Комфорта". Мебель на заказ.';
 const phoneService = '+7 (930) 671-14-55';
 
 const menu = [

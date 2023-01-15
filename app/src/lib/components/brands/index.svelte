@@ -18,9 +18,7 @@
 
 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8  pb-16 text-center ">
 	<div class="">
-		<ul
-			class="mt-8 flex items-center justify-center gap-x-8 sm:gap-x-10 xl:gap-x-12"
-		>
+		<ul class="mt-8 flex items-center justify-center gap-x-8 sm:gap-x-10 xl:gap-x-12">
 			{#each brands as company}
 				<li>
 					<ul class="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0">
