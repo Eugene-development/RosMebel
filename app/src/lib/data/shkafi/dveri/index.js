@@ -41,7 +41,12 @@ const products = [
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/sandi.jpeg',
 		alt: 'Двери купе'
 	},
-
+	{
+		name: 'Агат',
+		text: '2400х2400х600',
+		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/agat.jpeg',
+		alt: 'Шкаф купе'
+	},
 	{
 		name: 'Фикус',
 		text: '1800х2200',

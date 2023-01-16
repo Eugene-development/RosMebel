@@ -68,7 +68,7 @@
 								<h2 class="my-4 text-2xl font-extrabold text-white tracking-tight md:text-5xl">
 									{action}
 								</h2>
-								<span class="text-7xl font-extrabold text-white">{price}</span>
+								<span class="text-5xl md:text-7xl font-extrabold text-white">{price}</span>
 								<p class="mt-6 mx-auto max-w-2xl text-lg text-blue-50">
 									{description}
 								</p>

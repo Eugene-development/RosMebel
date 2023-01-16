@@ -37,12 +37,6 @@ const mainText = {
 
 const products = [
 	{
-		name: 'Агат',
-		text: '2400х2400х600',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/agat.jpeg',
-		alt: 'Шкаф купе'
-	},
-	{
 		name: 'Алмандин',
 		text: '2000/1400х2300х500',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/almandin.jpeg',
@@ -124,12 +118,6 @@ const products = [
 		name: 'Марианна',
 		text: '2800х2400х600',
 		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/mariana.jpeg',
-		alt: 'Шкаф купе'
-	},
-	{
-		name: 'Санди',
-		text: '2000х2400х600',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV4/shkafi/sandi.jpeg',
 		alt: 'Шкаф купе'
 	},
 	{

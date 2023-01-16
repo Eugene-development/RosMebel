@@ -78,7 +78,7 @@
 											<button
 												on:click={() => visibleFormMeasurement.update(invert)}
 												type="button"
-												class="rounded-md bg-green-600 text-green-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
+												class="rounded-md bg-green-800 text-green-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
 											>
 												<span class="sr-only">Close panel</span>
 												<!-- Heroicon name: outline/x-mark -->
