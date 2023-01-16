@@ -75,7 +75,7 @@
 						<div class="mt-8 flex gap-x-4 sm:justify-center ">
 							<a
 								href="/catalog"
-								class="inline-block rounded-lg bg-gradient-to-tr from-red-600 via-red-900 to-red-600 hover:bg-gradient-to-bl px-4 py-1.5 text-base text-center font-semibold leading-7 text-white shadow-sm ring-1"
+								class="inline-block rounded-lg bg-gradient-to-tr from-red-600 via-red-900 to-red-600 hover:bg-gradient-to-bl px-4 py-1.5 text-xs sm:text-base text-center font-semibold leading-7 text-white shadow-sm ring-1"
 							>
 								Посмотреть каталог
 								<span class="text-red-100" aria-hidden="true">&rarr;</span>
