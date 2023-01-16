@@ -85,7 +85,7 @@ const types = [
 		title: 'Гардеробные',
 		description: 'Полнофункциональные гардеробные с любым наполнением и под любой размер',
 		link: 'shkafy/garderobnie',
-		img: 'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/5.jpg'
+		img: 'https://мебель-по-цене-фабрики.рф/thumb/2/yoya_PxK9Ckv3eGUUTy1Pg/r/d/mebel_dlya_garderobnoy_komnaty_syuzen.jpg'
 	},
 	{
 		title: 'Двери купе',
