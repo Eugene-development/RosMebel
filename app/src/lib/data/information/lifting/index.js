@@ -1,5 +1,5 @@
 // SEO
-const title = 'Подъём';
+const title = `${import.meta.env.VITE_COMPANY_NAME}` + ' | Подъём';
 const description = 'Подъём мебели';
 
 const SEO = {

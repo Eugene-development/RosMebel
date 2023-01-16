@@ -1,6 +1,7 @@
 // SEO
-const title = 'Гардеробные в Нижнем Новгороде';
-const description = 'Варианты гардеробных различного наполнения в Нижнем Новгороде';
+const title =
+	`${import.meta.env.VITE_COMPANY_NAME}` + ' | Купить гардеробную на заказ в Нижнем Новгороде';
+const description = 'Варианты гардеробных для ниш в комнатах.';
 
 const SEO = {
 	title,

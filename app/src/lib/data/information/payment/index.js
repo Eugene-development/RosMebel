@@ -1,5 +1,5 @@
 // SEO
-const title = 'Оплата';
+const title = 'Азбука Комфорта | Оплата';
 const description = 'Оплата мебели';
 
 const SEO = {

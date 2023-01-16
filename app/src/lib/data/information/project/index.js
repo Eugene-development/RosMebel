@@ -1,5 +1,5 @@
 // SEO
-const title = 'Проект';
+const title = `${import.meta.env.VITE_COMPANY_NAME}` + ' | Проект';
 const description = 'Проект мебели';
 
 const SEO = {

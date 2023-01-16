@@ -4,6 +4,5 @@ import { contentBlog } from '$lib/data/blog';
 
 /** @type {import('./$types').PageLoad} */
 export async function load({ data }) {
-	const companyName = import.meta.env.VITE_COMPANY_NAME;
-	return { contentBenefits, contentCooperation, contentBlog, companyName };
+	return { contentBenefits, contentCooperation, contentBlog };
 }

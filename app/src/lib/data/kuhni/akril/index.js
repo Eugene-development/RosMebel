@@ -1,5 +1,5 @@
 // SEO
-const title = 'Акриловые кухонные гарнитуры в Нижнем Новгороде';
+const title = `${import.meta.env.VITE_COMPANY_NAME}` + ' | Акриловые кухонные гарнитуры';
 const description = 'Варианты кухонных гарнитуров с акриловыми фасадами в Нижнем Новгороде';
 
 const SEO = {

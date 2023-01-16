@@ -3,20 +3,14 @@
 	export let data;
 </script>
 
-<!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
--->
+<svelte:head>
+	<title>{import.meta.env.VITE_COMPANY_NAME} | Каталог мебели</title>
+	<meta
+		name="description"
+		content="Каталог мебели компании {import.meta.env.VITE_COMPANY_NAME}. Заказывайте бесплатный замер на нашем сайте."
+	/>
+</svelte:head>
+
 <div class="bg-white">
 	<div class="mx-auto max-w-7xl py-12 px-6 lg:px-8 lg:py-24">
 		<div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">

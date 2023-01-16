@@ -1,6 +1,7 @@
 // SEO
-const title = 'Офисные шкафы в Нижнем Новгороде';
-const description = 'Варианты офисных шкафов в Нижнем Новгороде';
+const title =
+	`${import.meta.env.VITE_COMPANY_NAME}` + ' | Купить офисный шкаф на заказ в Нижнем Новгороде';
+const description = 'Варианты офисных шкафов для вашей комфортной работы.';
 
 const SEO = {
 	title,

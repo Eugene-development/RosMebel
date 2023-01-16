@@ -1,5 +1,5 @@
 // SEO
-const title = 'Замер';
+const title = `${import.meta.env.VITE_COMPANY_NAME}` + ' | Замер';
 const description = 'Замер мебели';
 
 const SEO = {

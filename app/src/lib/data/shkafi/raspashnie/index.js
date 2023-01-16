@@ -1,6 +1,7 @@
 // SEO
-const title = 'Распашные шкафы в Нижнем Новгороде';
-const description = 'Варианты распашных шкафов в Нижнем Новгороде';
+const title =
+	`${import.meta.env.VITE_COMPANY_NAME}` + ' | Купить распашные шкафы на заказ в Нижнем Новгороде';
+const description = 'Варианты распашных шкафов различного назначения для домов и квартир.';
 
 const SEO = {
 	title,

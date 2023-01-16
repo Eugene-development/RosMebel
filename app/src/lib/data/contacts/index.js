@@ -1,6 +1,6 @@
 // SEO
-const title = 'Контакты';
-const description = 'Связь с нами';
+const title = `${import.meta.env.VITE_COMPANY_NAME}` + ' | Контакты';
+const description = 'Связь с нашими специалистами';
 
 const SEO = {
 	title,

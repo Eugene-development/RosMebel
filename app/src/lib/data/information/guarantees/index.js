@@ -1,5 +1,5 @@
 // SEO
-const title = 'Гарантии';
+const title = `${import.meta.env.VITE_COMPANY_NAME}` + ' | Гарантии';
 const description = 'Гарантии на мебель';
 
 const SEO = {

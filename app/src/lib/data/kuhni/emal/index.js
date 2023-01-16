@@ -1,5 +1,5 @@
 // SEO
-const title = 'Эмалированные кухонные гарнитуры в Нижнем Новгороде';
+const title = `${import.meta.env.VITE_COMPANY_NAME}` + ' | Эмалированные кухонные гарнитуры';
 const description = 'Варианты эмалированных кухонных гарнитуров в Нижнем Новгороде';
 
 const SEO = {

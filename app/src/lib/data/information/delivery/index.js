@@ -1,5 +1,5 @@
 // SEO
-const title = 'Доставка';
+const title = `${import.meta.env.VITE_COMPANY_NAME}` + ' | Доставка';
 const description = 'Доставка мебели';
 
 const SEO = {

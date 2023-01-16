@@ -1,5 +1,5 @@
 // SEO
-const title = 'Кухонные гарнитуры из пластика в Нижнем Новгороде';
+const title = `${import.meta.env.VITE_COMPANY_NAME}` + ' | Кухонные гарнитуры из пластика';
 const description = 'Варианты кухонных гарнитуров с фасадами из пластика в Нижнем Новгороде';
 
 const SEO = {

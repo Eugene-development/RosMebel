@@ -1,6 +1,7 @@
 // SEO
-const title = 'Встроенные шкафы в Нижнем Новгороде';
-const description = 'Варианты встроенных шкафов в Нижнем Новгороде';
+const title =
+	`${import.meta.env.VITE_COMPANY_NAME}` + ' | Купить встроенный шкаф на заказ в Нижнем Новгороде';
+const description = 'Варианты встроенных шкафов для ниш помещений в вашей квартире.';
 
 const SEO = {
 	title,
@@ -10,7 +11,7 @@ const SEO = {
 //BC
 const titleBC = 'Встроенные шкафы';
 const descriptionBC =
-	'Ознакомьтесь с нашими вариантами встроенных шкафов для ниш раличных назначений от гардеробной до кладовой.';
+	'Ознакомьтесь с нашими вариантами встроенных шкафов для ниш различных назначений от гардеробной до кладовой.';
 const pathImgBC =
 	'https://storage.yandexcloud.net/brand-logo/mos-mebel/MarketingSectionV5/cabinets/1.jpg';
 

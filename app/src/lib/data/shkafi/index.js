@@ -1,6 +1,6 @@
 // SEO
-const title = 'Шкафы в Нижнем Новгороде в Нижнем Новгороде';
-const description = 'Шкафы на заказ в Нижнем Новгороде';
+const title = `${import.meta.env.VITE_COMPANY_NAME}` + ' | Шкафы на заказ в Нижнем Новгороде';
+const description = 'Обратите внимание на шкафы на заказ, предлагаемые нашей компанией.';
 
 const SEO = {
 	title,
