@@ -10,7 +10,7 @@
 
 <Banner />
 <Header />
-<slot />
+	<slot />
 <Footer {...data.contentFooter} />
 
 <FormMeasurement />

@@ -1,4 +1,5 @@
 <script>
+	import { fade, fly } from "svelte/transition";
 	import Brands from '$lib/components/brands/index.svelte';
 	import { visibleFormMeasurement } from '$lib/store/stores';
 	import { useInvert } from '$lib/functions/broker';
@@ -6,7 +7,7 @@
 	export let content;
 </script>
 
-<section class="bg-white dark:bg-gray-900">
+<section class="bg-white dark:bg-gray-900" in:fly="{{ y: 100, duration: 1500 }}" out:fade={{ duration: 500 }}>
 	<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
 		<a
 			href="/catalog"

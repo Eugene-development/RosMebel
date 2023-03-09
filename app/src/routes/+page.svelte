@@ -1,4 +1,6 @@
 <script>
+		import { fade, fly } from "svelte/transition";
+
 	import Hero from '$lib/components/hero/index.svelte';
 	import Brands from '$lib/components/brands/index.svelte';
 	import Preview from '$lib/components/preview/index.svelte';
@@ -17,9 +19,12 @@
 	/>
 </svelte:head>
 
-<Hero />
-<Brands />
-<Preview />
-<Benefits {...data.contentBenefits} />
-<Testimonials />
-<Blog {...data.contentBlog} />
+<div in:fade="{{ duration: 1000 }}" out:fade={{ duration: 500 }}>
+	<Hero />
+	<Brands />
+	<Preview />
+	<Benefits {...data.contentBenefits} />
+	<Testimonials />
+	<Blog {...data.contentBlog} />
+</div>
+

@@ -1,11 +1,12 @@
 <script>
+	import { fade } from 'svelte/transition';
 	import { visibleBanner } from '$lib/store/stores.js';
 	import { useInvert } from '$lib/functions/broker';
 	const { invert } = useInvert;
 </script>
 
 {#if $visibleBanner}
-	<div class="bg-blue-500">
+	<div class="bg-blue-500" out:fade>
 		<div class="mx-auto max-w-full py-2 px-3 sm:px-6 lg:px-8">
 			<div class="flex flex-wrap items-center justify-between">
 				<div class="flex w-0 flex-1 items-center">
